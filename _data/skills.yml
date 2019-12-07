@@ -1,0 +1,29 @@
+languages:
+  - item: Swift
+  - item: C++
+  - item: Python
+  - item: HTML
+  - item: CSS/Sass
+  - item: JavaScript (ES6)
+  - item: TypeScript
+
+frameworks:
+  - item: Angular
+  - item: Jekyll
+  - item: Node.js
+  - item: ARKit
+  - item: UIKit
+
+tools:
+  - item: Bash
+  - item: Git & Github
+  - item: Chrome DevTools
+  - item: Postman
+
+softwares:
+  - item: Sketch
+  - item: InDesign
+  - item: InVision
+  - item: Prototyping
+  - item: Wireframing
+  - item: User Testing

@@ -1,0 +1,6 @@
+<h2>Awards</h2>
+<ul>
+    {% for award in site.data.awards %}
+        <li>{{ award.description }} ({{ award.date }})</li>
+    {% endfor %}
+</ul>

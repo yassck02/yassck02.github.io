@@ -1,0 +1,29 @@
+<h2>Skills</h2>
+
+<h4>Languages</h4>
+<ul>
+    {% for language in site.data.skills.languages %}
+    <li >{{ language.item }}</li>
+    {% endfor %}
+</ul>
+
+<h4>Frameworks</h4>
+<ul>
+    {% for framework in site.data.skills.frameworks %}
+    <li >{{ framework.item }}</li>
+    {% endfor %}
+</ul>
+
+<h4>Tools</h4>
+<ul>
+    {% for tools in site.data.skills.tools %}
+    <li >{{ tools.item }}</li>
+    {% endfor %}
+</ul>
+
+<h4>Software</h4>
+<ul>
+    {% for software in site.data.skills.softwares %}
+    <li >{{ software.item }}</li>
+    {% endfor %}
+</ul>
