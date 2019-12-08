@@ -1,16 +1,16 @@
 .header {
+
+    text-align: center;
+
     &__name {
-        color: purple;
+        font-variant: small-caps;
+        margin: 10px 0px 10px 0px;
     }
     &__info {
-        &__email {
-            color: red;
-        }
-        &__number {
-            color: orange;
-        }
-        &__url {
-            color: yellow
+        margin: 10px 0px 10px 0px;
+        * {
+            display: inline-block;
+            margin: 0px 8px 0px 8px;
         }
     }
 }

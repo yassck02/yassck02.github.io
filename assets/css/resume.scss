@@ -4,10 +4,17 @@
 @import "partials/colors";
 @import "partials/resume/header";
 
-.hr {
-    border-top: 1px solid red;
+body {
+    color: $font-primary;
+    font-family: Calibre, " Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+    margin: 12px;
 }
 
-.section {
-    background: blueviolet;
+a {
+    text-decoration: none;
+    color: $accent-color;
+}
+
+.hr {
+    border-top: 1px solid $accent-color;
 }

@@ -1,13 +1,15 @@
-.header__name { color: purple; }
+.header { text-align: center; }
 
-.header__info__email { color: red; }
+.header__name { font-variant: small-caps; margin: 10px 0px 10px 0px; }
 
-.header__info__number { color: orange; }
+.header__info { margin: 10px 0px 10px 0px; }
 
-.header__info__url { color: yellow; }
+.header__info * { display: inline-block; margin: 0px 8px 0px 8px; }
 
-.hr { border-top: 1px solid red; }
+body { color: #3c3c3c; font-family: Calibre, " Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif; margin: 12px; }
 
-.section { background: blueviolet; }
+a { text-decoration: none; color: #ca196c; }
+
+.hr { border-top: 1px solid #ca196c; }
 
 /*# sourceMappingURL=resume.css.map */
