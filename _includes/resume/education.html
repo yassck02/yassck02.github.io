@@ -1,1 +1,10 @@
 <h2>Education</h2>
+<div class="hr"></div>
+
+<ul>
+    {% for education in site.data.education %}
+        <li>{{ education.school }}</li>
+        <li>{{ education.degree }}</li>
+        <li>{{ education.date }}</li>
+    {% endfor %}
+</ul>

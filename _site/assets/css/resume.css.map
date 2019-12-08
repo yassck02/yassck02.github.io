@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "resume.css",
+	"sources": [
+		"resume.scss",
+		"_sass/partials/_colors.scss",
+		"_sass/partials/resume/_header.scss"
+	],
+	"sourcesContent": [
+		"@import \"partials/colors\";\n@import \"partials/resume/header\";\n\n.hr {\n    border-top: 1px solid red;\n}\n\n.section {\n    background: blueviolet;\n}",
+		"\n$base-color: #882a56;",
+		".header {\n    &__name {\n        color: purple;\n    }\n    &__info {\n        &__email {\n            color: red;\n        }\n        &__number {\n            color: orange;\n        }\n        &__url {\n            color: yellow\n        }\n    }\n}"
+	],
+	"names": [],
+	"mappings": "AECK,AAAD,aAAO,CAAC,EACJ,KAAK,EAAE,MAAM,GAChB;;AAEI,AAAD,oBAAQ,CAAC,EACL,KAAK,EAAE,GAAG,GACb;;AACA,AAAD,qBAAS,CAAC,EACN,KAAK,EAAE,MAAM,GAChB;;AACA,AAAD,kBAAM,CAAC,EACH,KAAK,EAAE,MACX,GAAC;;AFVT,AAAA,GAAG,CAAC,EACA,UAAU,EAAE,aAAa,GAC5B;;AAED,AAAA,QAAQ,CAAC,EACL,UAAU,EAAE,UAAU,GACzB"
+}

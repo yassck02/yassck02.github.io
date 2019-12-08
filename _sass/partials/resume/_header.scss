@@ -1,0 +1,16 @@
+.header {
+    &__name {
+        color: purple;
+    }
+    &__info {
+        &__email {
+            color: red;
+        }
+        &__number {
+            color: orange;
+        }
+        &__url {
+            color: yellow
+        }
+    }
+}

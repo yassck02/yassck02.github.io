@@ -1,5 +1,14 @@
-{% for info in site.data.info %}
+{% assign info = site.data.info %}
 
-<h1>{{ info.name }} | {{ info.phone }} | {{ info.email }}</h1>
+<div class="section header">
+    <h1 class="header__name"><{{ info.name }}/h1>
+    <div class="header__info">
 
-{% endfor %}
+        <div class="header__info__email">{{ info.email }}</div>
+        <div class="header__info__number">{{ info.number }}</div>
+        <div class="header__info__url">{{ info.url }}</div>
+
+    </div>
+</div>
+
+<div class="hr"></div>

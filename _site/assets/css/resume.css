@@ -1,0 +1,13 @@
+.header__name { color: purple; }
+
+.header__info__email { color: red; }
+
+.header__info__number { color: orange; }
+
+.header__info__url { color: yellow; }
+
+.hr { border-top: 1px solid red; }
+
+.section { background: blueviolet; }
+
+/*# sourceMappingURL=resume.css.map */
