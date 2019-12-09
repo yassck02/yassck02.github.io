@@ -1,10 +1,14 @@
-<h2>Education</h2>
-<div class="hr"></div>
+{% assign education = site.data.education %}
 
-<ul>
-    {% for education in site.data.education %}
-        <li>{{ education.school }}</li>
-        <li>{{ education.degree }}</li>
-        <li>{{ education.date }}</li>
-    {% endfor %}
-</ul>
+<div class="section education">
+    <h2 class="section__title">Education</h2>
+    <div class="hr"></div>
+    <div class="section__content">
+
+        <div class="education__item">
+            <div class="education__item__school">{{ education.school }}</div>
+            <div class="education__item__degree">{{ education.degree }}</div>
+            <div class="education__item__date">{{ education.date }}</div>
+        </div>
+    </div>
+</div>

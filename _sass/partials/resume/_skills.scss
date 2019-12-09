@@ -1,0 +1,14 @@
+.skills {
+    &__category {
+        &__title {
+            clear: right;
+            float: left;
+        }
+        &__list {
+            * {
+                display: inline-block;
+                margin: 0px 0px 0px 8px;
+            }
+        }
+    }
+}

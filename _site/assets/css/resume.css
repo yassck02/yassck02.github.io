@@ -6,7 +6,15 @@
 
 .header__info * { display: inline-block; margin: 0px 8px 0px 8px; }
 
+.skills__category__title { clear: right; float: left; }
+
+.skills__category__list * { display: inline-block; margin: 0px 0px 0px 8px; }
+
 body { color: #3c3c3c; font-family: Calibre, " Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif; margin: 12px; }
+
+.section__title { margin: 10px 0px 10px 0px; font-style: italic; font-weight: 600; font-size: 20px; }
+
+.section__content { margin: 10px 0px 10px 0px; }
 
 a { text-decoration: none; color: #ca196c; }
 

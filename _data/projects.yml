@@ -7,3 +7,13 @@
     - item: MacOS
     - item: iPadOS
     - item: Xcode
+
+- name: Chalk-Talk
+  url: https://github.com/yassck02/spirographer
+  description: A document based desktop application for rendering complex spirograph images
+  used:
+    - item: Metal
+    - item: Swift
+    - item: MacOS
+    - item: iPadOS
+    - item: Xcode

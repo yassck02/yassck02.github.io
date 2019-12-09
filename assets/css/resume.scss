@@ -3,11 +3,25 @@
 
 @import "partials/colors";
 @import "partials/resume/header";
+@import "partials/resume/education";
+@import "partials/resume/skills";
 
 body {
     color: $font-primary;
     font-family: Calibre, " Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
     margin: 12px;
+}
+
+.section {
+    &__title {
+        margin: 10px 0px 10px 0px;
+        font-style: italic;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    &__content {
+        margin: 10px 0px 10px 0px;
+    }
 }
 
 a {

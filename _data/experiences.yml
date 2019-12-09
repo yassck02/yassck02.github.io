@@ -3,27 +3,32 @@
   locaiton: Hampton, VA
   time: September 2019 - Present
   position: Digital Prototyping (Software) Intern
+  description: This is what I did
 
 - company: Rockwell Automation
   url: https://www.NASA.gov/
   location: Milwaukee, WI
   time: May 2017 - September 2019
   position: Software Engineering Co-op
+  description: This is what I did
 
 - company: Arts Media Center
   url: https://www.uww.edu/
   location: Whitewater, WI
-  time: na
+  time:  
   position: Laser Cutter / 3D Printer Lab Tech
+  description: This is what I did
 
 - company: Interactive Degree Planner LLC
   url: https://www.uww.edu/
   location: Whitewater, WI
-  time: na
+  time:  
   position: Programming Intern
+  description: This is what I did
 
 - company: Mobile Mesh Games
   url: https://www.NASA.gov/
   location: Whitewater, WI
-  time: na
+  time: 
   position: Game Developement Intern
+  description: This is what I did

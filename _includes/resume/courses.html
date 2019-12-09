@@ -1,8 +1,9 @@
-<h2>Courses</h2>
-<div class="hr"></div>
-
-<ul>
-    {% for course in site.data.courses %}
-        <li>{{ course.dept }} ({{ course.number }})</li>
-    {% endfor %}
-</ul>
+<div class="section courses">
+    <h2 class="section__title">Courses</h2>
+    <div class="hr"></div>
+    <div class="section__content">
+        {% for course in site.data.courses %}
+        <div class="courses__course__title">{{ course.title }}</div>
+        {% endfor %}
+    </div>
+</div>

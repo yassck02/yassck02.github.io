@@ -1,8 +1,13 @@
-<h2>Projects</h2>
-<div class="hr"></div>
-
-<ul>
-    {% for project in site.data.projects %}
-        <li>{{ project.name }}</li>
-    {% endfor %}
-</ul>
+<div class="section projects">
+    <h2 class="section__title">Projects</h2>
+    <div class="hr"></div>
+    <div class="section__content">
+        {% for project in site.data.projects %}
+        <div class="projects__item">
+            <div class="projcets__item__name">{{ project.name }}</div>
+            <div class="projcets__item__description">{{ project.description }}</div>        
+        </div>
+        {% endfor %}
+        
+    </div>
+</div>

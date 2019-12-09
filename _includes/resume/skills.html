@@ -1,30 +1,16 @@
-<h2>Skills</h2>
-<div class="hr"></div>
-
-<h4>Languages</h4>
-<ul>
-    {% for language in site.data.skills.languages %}
-    <li >{{ language.item }}</li>
-    {% endfor %}
-</ul>
-
-<h4>Frameworks</h4>
-<ul>
-    {% for framework in site.data.skills.frameworks %}
-    <li >{{ framework.item }}</li>
-    {% endfor %}
-</ul>
-
-<h4>Tools</h4>
-<ul>
-    {% for tools in site.data.skills.tools %}
-    <li >{{ tools.item }}</li>
-    {% endfor %}
-</ul>
-
-<h4>Software</h4>
-<ul>
-    {% for software in site.data.skills.softwares %}
-    <li >{{ software.item }}</li>
-    {% endfor %}
-</ul>
+<div class="section skills">
+    <h2 class="section__title">Skills</h2>
+    <div class="hr"></div>
+    <div class="section__content">
+        {% for category in site.data.skills %}
+        <div class="skills__category">
+            <div class="skills__category__title">{{ category[0] }}</div>
+            <div class="skills__category__list">
+                {% for item in category[1] %}
+                <div>{{ item.item }}</div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

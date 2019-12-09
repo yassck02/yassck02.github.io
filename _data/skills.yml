@@ -1,4 +1,4 @@
-languages:
+Languages:
   - item: Swift
   - item: C++
   - item: Python
@@ -7,20 +7,19 @@ languages:
   - item: JavaScript (ES6)
   - item: TypeScript
 
-frameworks:
+Frameworks:
   - item: Angular
   - item: Jekyll
   - item: Node.js
   - item: ARKit
   - item: UIKit
 
-tools:
+Tools:
   - item: Bash
-  - item: Git & Github
-  - item: Chrome DevTools
+  - item: GIT
   - item: Postman
 
-softwares:
+Software:
   - item: Sketch
   - item: InDesign
   - item: InVision
