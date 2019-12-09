@@ -2,9 +2,14 @@
 ---
 
 @import "partials/colors";
+
 @import "partials/resume/header";
 @import "partials/resume/education";
 @import "partials/resume/skills";
+@import "partials/resume/experience";
+@import "partials/resume/projects";
+@import "partials/resume/courses";
+@import "partials/resume/awards";
 
 body {
     color: $font-primary;

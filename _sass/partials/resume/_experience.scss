@@ -1,6 +1,7 @@
-.education {
+.experience {
     &__item {
-        &__date {
+        padding: 0px 0px 10px 0px;
+        &__time, &__location {
             color: $font-secondary;
             float: right;
             clear: right;

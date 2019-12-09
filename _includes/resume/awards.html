@@ -2,9 +2,9 @@
     <h2 class="section__title">Awards</h2>
     <div class="hr"></div>
     <div class="section__content">
-        {% for award in site.data.awards %}
-        <div class="awards__description">{{ award.description }}</div>
-        <div class="awards__date">{{ award.date }}</div>
+        {% for item in site.data.awards %}
+        <div class="awards__item__date">{{ item.date }}</div>
+        <div class="awards__item__description">{{ item.description }}</div>
         {% endfor %}
     </div>
 </div>
