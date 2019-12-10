@@ -1,6 +1,9 @@
 - name: Spirographer
   url: https://github.com/yassck02/spirographer
-  description: A document based desktop application for rendering complex spirograph images
+  description: > 
+    Developed an iOS application that utilizes
+    Metal to plot and render spirograph designs
+    in real time; Written in native Swift
   used:
     - item: Metal
     - item: Swift
@@ -9,11 +12,42 @@
     - item: Xcode
 
 - name: Chalk-Talk
-  url: https://github.com/yassck02/spirographer
-  description: A document based desktop application for rendering complex spirograph images
+  url: 
+  description: > 
+    Designed, developed and released a peer 
+    to peer messaging app on the iOS platform; 
+    Responded to bug reports, ran marketing campaigns 
+    and managed overall UX design
   used:
-    - item: Metal
-    - item: Swift
-    - item: MacOS
-    - item: iPadOS
-    - item: Xcode
+    - item: iOS
+    - item: Blutooth
+    - item: Multipeer Connectivity
+    - item: Wireless
+    - item: Interface Builder
+
+- name: Family-Feud
+  url: https://github.com/yassck02/familyfeud
+  description: > 
+    Implemented a command line version of the tv game show 
+    that utilizes a text based UI and client server architecture; 
+    Written in Python
+  used:
+    - item: Python
+    - item: Bash
+    - item: Text-Based UI
+    - item: Command Line
+    - item: Client-Server
+
+- name: 3D printable study tool
+  url: 
+  description: > 
+    Led a small cross-disciplinary team that designed
+    and produced an assemblable model of the human
+    larynx for use in a classroom setting; Presented
+    at multiple conferences
+  used:
+    - item: 3D Printing
+    - item: Undergraduate Research
+    - item: Multi-Material
+    - item: Study Tool
+    - item: Autodesk 3Ds Max

@@ -1,34 +1,41 @@
-- company: NASA
+- company: NASA Langley Research Center
   url: https://www.NASA.gov/
   locaiton: Hampton, VA
-  time: September 2019 - Present
-  position: Digital Prototyping (Software) Intern
-  description: This is what I did
+  time: Sept '19 - Dec '19
+  position: AR / VR Software Developer
+  description: Designed and implemented an augmented reality application to track unmanned aerial vehicles. Prototyped multiple different use cases for AR in the aerospace industry on the iOS platform
 
 - company: Rockwell Automation
-  url: https://www.NASA.gov/
+  url: https://www.rockwellautomation.gov/
   location: Milwaukee, WI
-  time: May 2017 - September 2019
+  time: May '18 - Jan '19
   position: Software Engineering Co-op
-  description: This is what I did
+  description: Developed, implemented, tested, and documented user facing features in and C++ and Typescript. Participated in the full development lifecycle of a large scale project using scaled agile methodologies
 
 - company: Arts Media Center
   url: https://www.uww.edu/
   location: Whitewater, WI
-  time:  
-  position: Laser Cutter / 3D Printer Lab Tech
-  description: This is what I did
+  time: Jan '16 - May '18
+  position: 3D Printer and Laser Cutter Lab Technician
+  description: Taught students and professors how to use the equipment. Cleaned, maintained, and operated the machinery
 
 - company: Interactive Degree Planner LLC
   url: https://www.uww.edu/
   location: Whitewater, WI
-  time:  
+  time: May '17 - May '18
   position: Programming Intern
-  description: This is what I did
+  description: Worked on a team to design and implement complex scheduling and optimization algorithms in C++. Optimized, documented, and updated old code to adopt new design requirements from stakeholders
 
 - company: Mobile Mesh Games
-  url: https://www.NASA.gov/
+  url: 
   location: Whitewater, WI
-  time: 
+  time: Feb - Sept '16
   position: Game Developement Intern
-  description: This is what I did
+  description: Developed, tested, and debugged C# code for mobile apps. Implemented art assets and UI control logic
+
+- company: 
+  url: 
+  location: Whitewater, WI
+  time: June '15 - Present
+  position: iOS and OS X App Developer
+  description: Produced and released multiple mobile apps with a combined total of over 15,000 downloads. Developed mobile and desktop applications to visualize complex mathematical patterns and fractals

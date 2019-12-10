@@ -3,26 +3,35 @@ Languages:
   - item: C++
   - item: Python
   - item: HTML
-  - item: CSS/Sass
-  - item: JavaScript (ES6)
+  - item: CSS / SASS
+  - item: JavaScript
   - item: TypeScript
 
 Frameworks:
   - item: Angular
+  - item: Cocoa / UIKit
+  - item: Metal
   - item: Jekyll
-  - item: Node.js
+  - item: REST
+  - item: SpriteKit
   - item: ARKit
-  - item: UIKit
 
 Tools:
-  - item: Bash
   - item: GIT
-  - item: Postman
+  - item: Scaled Agile (SAFe)
+  - item: Node.js
+  - item: Bash
+  - item: Wireshark
 
 Software:
-  - item: Sketch
-  - item: InDesign
-  - item: InVision
-  - item: Prototyping
-  - item: Wireframing
-  - item: User Testing
+  - item: Xcode
+  - item: VS Code
+  - item: Adobe Photoshop / Illustrator
+  - item: Autodesk Maya / 3Ds Max
+
+Platforms:
+  - item: iOS
+  - item: MacOS
+  - item: Windows
+  - item: Linux
+  - item: Unix

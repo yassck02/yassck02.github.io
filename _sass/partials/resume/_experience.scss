@@ -6,5 +6,11 @@
             float: right;
             clear: right;
         }
+        &__company {
+            font-style: italic;
+        }
+        &__position {
+            font-weight: 600;
+        }
     }
 }

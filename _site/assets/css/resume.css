@@ -16,9 +16,17 @@
 
 .experience__item__time, .experience__item__location { color: #787878; float: right; clear: right; }
 
+.experience__item__company { font-style: italic; }
+
+.experience__item__position { font-weight: 600; }
+
+.projects__item { width: 50%; float: right; padding: 00px 0px 10px 0px; }
+
 .projects__item__name { font-weight: 600; }
 
 .awards__item__date { color: #787878; float: right; clear: right; }
+
+.hidden { display: none; }
 
 body { color: #3c3c3c; font-family: Calibre, " Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif; margin: 12px; }
 

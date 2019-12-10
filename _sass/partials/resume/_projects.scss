@@ -1,5 +1,10 @@
 .projects {
     &__item {
+        
+        width: 50%;
+        float: right;
+        padding: 00px 0px 10px 0px;
+
         &__name {
             font-weight: 600;
         }
