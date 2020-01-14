@@ -4,13 +4,27 @@
 	"sources": [
 		"resume.scss",
 		"_sass/partials/_colors.scss",
-		"_sass/partials/resume/_header.scss"
+		"_sass/partials/resume/_header.scss",
+		"_sass/partials/resume/_education.scss",
+		"_sass/partials/resume/_skills.scss",
+		"_sass/partials/resume/_experience.scss",
+		"_sass/partials/resume/_projects.scss",
+		"_sass/partials/resume/_courses.scss",
+		"_sass/partials/resume/_awards.scss",
+		"_sass/partials/resume/_keywords.scss"
 	],
 	"sourcesContent": [
-		"@import \"partials/colors\";\n@import \"partials/resume/header\";\n\n.hr {\n    border-top: 1px solid red;\n}\n\n.section {\n    background: blueviolet;\n}",
-		"\n$base-color: #882a56;",
-		".header {\n    &__name {\n        color: purple;\n    }\n    &__info {\n        &__email {\n            color: red;\n        }\n        &__number {\n            color: orange;\n        }\n        &__url {\n            color: yellow\n        }\n    }\n}"
+		"@import \"partials/colors\";\n\n@import \"partials/resume/header\";\n@import \"partials/resume/education\";\n@import \"partials/resume/skills\";\n@import \"partials/resume/experience\";\n@import \"partials/resume/projects\";\n@import \"partials/resume/courses\";\n@import \"partials/resume/awards\";\n@import \"partials/resume/keywords\";\n\nbody {\n    color: $font-primary;\n    font-family: Calibre, \" Francisco\", \"SF Pro Text\", -apple-system, system-ui, BlinkMacSystemFont, Roboto, \"Helvetica Neue\", \"Segoe UI\", Arial, sans-serif;\n    margin: 12px;\n}\n\n.section {\n    &__title {\n        margin: 10px 0px 10px 0px;\n        font-style: italic;\n        font-weight: 500;\n        font-size: 20px;\n    }\n    &__content {\n        margin: 10px 0px 10px 0px;\n    }\n}\n\na {\n    text-decoration: none;\n    color: $accent-color;\n}\n\n.hr {\n    border-top: 1px solid $accent-color;\n}\n\n.courses {\n    width: 49%;\n    float: left;\n    clear: left;\n}\n\n.awards {\n    width: 49%;\n    float: right;\n    clear: right;\n}",
+		"$accent-color: #ca196c;\n$font-primary: rgb(60, 60, 60);\n$font-secondary: rgb(120, 120, 120);",
+		".header {\n\n    text-align: center;\n\n    &__name {\n        font-variant: small-caps;\n        margin: 10px 0px 10px 0px;\n    }\n    &__info {\n        margin: 10px 0px 10px 0px;\n        * {\n            display: inline-block;\n            margin: 0px 8px 0px 8px;\n        }\n    }\n}",
+		".education {\n    &__item {\n        &__date {\n            color: $font-secondary;\n            float: right;\n            clear: right;\n        }\n    }\n}",
+		".skills {\n    &__titles {\n        width: 125px;\n        clear: left;\n        float: left;\n\n        &__title {\n            display: block;\n        }\n    }\n    &__lists {\n        &__list {\n            &__item {\n                display: inline-block;\n                padding: 0px 8px 0px 0px;\n            }\n        }\n    }\n}",
+		".experience {\n    &__item {\n        padding: 0px 0px 10px 0px;\n        &__time, &__location {\n            color: $font-secondary;\n            float: right;\n            clear: right;\n        }\n        &__company {\n            display: inline-block;\n            font-style: italic;\n        }\n        &__position {\n            display: inline-block;\n            font-weight: 600;\n        }\n        &__description {\n            padding-top: 4px;\n        }\n    }\n}",
+		".projects {\n    &__item {\n        \n        width: 50%;\n        float: right;\n        padding: 00px 0px 10px 0px;\n\n        &__name {\n            font-weight: 600;\n        }\n        &__description {\n            padding-top: 4px;\n        }\n    }\n}",
+		"",
+		".awards {\n    &__item {\n        &__date {\n            color: $font-secondary;\n            float: right;\n            clear: right;\n        }\n    }\n}",
+		".hidden {\n    display: none;\n}"
 	],
 	"names": [],
-	"mappings": "AECK,AAAD,aAAO,CAAC,EACJ,KAAK,EAAE,MAAM,GAChB;;AAEI,AAAD,oBAAQ,CAAC,EACL,KAAK,EAAE,GAAG,GACb;;AACA,AAAD,qBAAS,CAAC,EACN,KAAK,EAAE,MAAM,GAChB;;AACA,AAAD,kBAAM,CAAC,EACH,KAAK,EAAE,MACX,GAAC;;AFVT,AAAA,GAAG,CAAC,EACA,UAAU,EAAE,aAAa,GAC5B;;AAED,AAAA,QAAQ,CAAC,EACL,UAAU,EAAE,UAAU,GACzB"
+	"mappings": "AEAA,AAAA,OAAO,CAAC,EAEJ,UAAU,EAAE,MAAM,GAarB;;AAXI,AAAD,aAAO,CAAC,EACJ,YAAY,EAAE,UAAU,EACxB,MAAM,EAAE,iBAAiB,GAC5B;;AACA,AAAD,aAAO,CAAC,EACJ,MAAM,EAAE,iBAAiB,GAK5B;;AANA,AAEG,aAFG,CAEH,CAAC,CAAC,EACE,OAAO,EAAE,YAAY,EACrB,MAAM,EAAE,eAAe,GAC1B;;ACXA,AAAD,sBAAO,CAAC,EACJ,KAAK,EFDA,OAAkB,EEEvB,KAAK,EAAE,KAAK,EACZ,KAAK,EAAE,KAAK,GACf;;ACLJ,AAAD,eAAS,CAAC,EACN,KAAK,EAAE,KAAK,EACZ,KAAK,EAAE,IAAI,EACX,KAAK,EAAE,IAAI,GAKd;;AAHI,AAAD,sBAAQ,CAAC,EACL,OAAO,EAAE,KAAK,GACjB;;AAII,AAAD,0BAAO,CAAC,EACJ,OAAO,EAAE,YAAY,EACrB,OAAO,EAAE,eAAe,GAC3B;;ACdR,AAAD,iBAAO,CAAC,EACJ,OAAO,EAAE,gBAAgB,GAiB5B;;AAhBI,AAAD,uBAAO,EAAG,2BAAU,CAAC,EACjB,KAAK,EJFA,OAAkB,EIGvB,KAAK,EAAE,KAAK,EACZ,KAAK,EAAE,KAAK,GACf;;AACA,AAAD,0BAAU,CAAC,EACP,OAAO,EAAE,YAAY,EACrB,UAAU,EAAE,MAAM,GACrB;;AACA,AAAD,2BAAW,CAAC,EACR,OAAO,EAAE,YAAY,EACrB,WAAW,EAAE,GAAG,GACnB;;AACA,AAAD,8BAAc,CAAC,EACX,WAAW,EAAE,GAAG,GACnB;;ACjBJ,AAAD,eAAO,CAAC,EAEJ,KAAK,EAAE,GAAG,EACV,KAAK,EAAE,KAAK,EACZ,OAAO,EAAE,iBAAiB,GAQ7B;;AANI,AAAD,qBAAO,CAAC,EACJ,WAAW,EAAE,GAAG,GACnB;;AACA,AAAD,4BAAc,CAAC,EACX,WAAW,EAAE,GAAG,GACnB;;AEVA,AAAD,mBAAO,CAAC,EACJ,KAAK,EPDA,OAAkB,EOEvB,KAAK,EAAE,KAAK,EACZ,KAAK,EAAE,KAAK,GACf;;ACNT,AAAA,OAAO,CAAC,EACJ,OAAO,EAAE,IAAI,GAChB;;ATSD,AAAA,IAAI,CAAC,EACD,KAAK,ECXM,OAAe,EDY1B,WAAW,EAAE,2IAA2I,EACxJ,MAAM,EAAE,IAAI,GACf;;AAGI,AAAD,eAAQ,CAAC,EACL,MAAM,EAAE,iBAAiB,EACzB,UAAU,EAAE,MAAM,EAClB,WAAW,EAAE,GAAG,EAChB,SAAS,EAAE,IAAI,GAClB;;AACA,AAAD,iBAAU,CAAC,EACP,MAAM,EAAE,iBAAiB,GAC5B;;AAGL,AAAA,CAAC,CAAC,EACE,eAAe,EAAE,IAAI,EACrB,KAAK,EC/BM,OAAO,GDgCrB;;AAED,AAAA,GAAG,CAAC,EACA,UAAU,EAAE,GAAG,CAAC,KAAK,CCnCV,OAAO,GDoCrB;;AAED,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,GAAG,EACV,KAAK,EAAE,IAAI,EACX,KAAK,EAAE,IAAI,GACd;;AAED,AAAA,OAAO,CAAC,EACJ,KAAK,EAAE,GAAG,EACV,KAAK,EAAE,KAAK,EACZ,KAAK,EAAE,KAAK,GACf"
 }

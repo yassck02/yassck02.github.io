@@ -22,7 +22,7 @@ body {
     &__title {
         margin: 10px 0px 10px 0px;
         font-style: italic;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 20px;
     }
     &__content {
@@ -37,4 +37,16 @@ a {
 
 .hr {
     border-top: 1px solid $accent-color;
+}
+
+.courses {
+    width: 49%;
+    float: left;
+    clear: left;
+}
+
+.awards {
+    width: 49%;
+    float: right;
+    clear: right;
 }

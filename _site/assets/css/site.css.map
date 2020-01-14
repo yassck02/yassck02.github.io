@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "site.css",
+	"sources": [
+		"site.scss",
+		"_sass/partials/_colors.scss",
+		"_sass/partials/_shared.scss"
+	],
+	"sourcesContent": [
+		"@import \"partials/colors\";\n@import \"partials/shared\";\n\n\n.terminal {\n  border-image-source: url(../images/terminal.dark.png);\n  border-image-slice: 150 150 150 150;\n}",
+		"$accent-color: #ca196c;\n$font-primary: rgb(60, 60, 60);\n$font-secondary: rgb(120, 120, 120);",
+		".code {\n    font-family: Menlo, Consolas, \"Consolas for Powerline\", \"Courier New\", Courier, monospace;\n    color: red;\n  }"
+	],
+	"names": [],
+	"mappings": "AEAA,AAAA,KAAK,CAAC,EACF,WAAW,EAAE,4EAA4E,EACzF,KAAK,EAAE,GAAG,GACX;;AFCH,AAAA,SAAS,CAAC,EACR,mBAAmB,EAAE,gCAAgC,EACrD,kBAAkB,EAAE,eAAe,GACpC"
+}

@@ -7,10 +7,15 @@
             clear: right;
         }
         &__company {
+            display: inline-block;
             font-style: italic;
         }
         &__position {
+            display: inline-block;
             font-weight: 600;
+        }
+        &__description {
+            padding-top: 4px;
         }
     }
 }

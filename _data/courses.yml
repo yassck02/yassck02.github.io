@@ -1,7 +1,43 @@
-- dept: COMPSCI
-  number: 312
-  title: Intro to AI
+- dept: Math
+  number: 253-255
+  title: Calculus I-III
 
 - dept: MATH
-  number: 790
-  title: Dynamical Systems
+  number: 355
+  title: Matrices and Linear Algebra
+
+- dept: MATH
+  number: 469
+  title: Ordinary and Partial Differential Equations
+
+- dept: MATH
+  number: 381
+  title: Mathematical Modeling and Simulation
+  
+- dept: COMPSCI
+  number: 222
+  title: Intermediate C++
+
+- dept: COMPSCI
+  number: 223
+  title: Data Structures
+
+# - dept: COMPSCI
+#   number: 271
+#   title: Assembly Programming
+  
+# - dept: COMPSCI
+#   number: 412
+#   title: Computer Organization and System Programming
+
+# - dept: COMPSCI
+#   number: 433
+#   title: Theory of Algorithms, Data Structures
+  
+# - dept: COMPSCI
+#   number: 461
+#   title: Wireless Computing Architectures
+
+# - dept: COMPSCI
+#   number: 332
+#   title: Intro to Artificial Intelligence

@@ -1,0 +1,11 @@
+---
+---
+
+@import "partials/colors";
+@import "partials/shared";
+
+
+.terminal {
+  border-image-source: url(../images/terminal.dark.png);
+  border-image-slice: 150 150 150 150;
+}

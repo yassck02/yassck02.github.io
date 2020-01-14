@@ -1,13 +1,18 @@
 .skills {
-    &__category {
+    &__titles {
+        width: 125px;
+        clear: left;
+        float: left;
+
         &__title {
-            clear: right;
-            float: left;
+            display: block;
         }
+    }
+    &__lists {
         &__list {
-            * {
+            &__item {
                 display: inline-block;
-                margin: 0px 0px 0px 8px;
+                padding: 0px 8px 0px 0px;
             }
         }
     }

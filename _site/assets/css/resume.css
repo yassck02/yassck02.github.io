@@ -8,21 +8,27 @@
 
 .education__item__date { color: #787878; float: right; clear: right; }
 
-.skills__category__title { clear: right; float: left; }
+.skills__titles { width: 125px; clear: left; float: left; }
 
-.skills__category__list * { display: inline-block; margin: 0px 0px 0px 8px; }
+.skills__titles__title { display: block; }
+
+.skills__lists__list__item { display: inline-block; padding: 0px 8px 0px 0px; }
 
 .experience__item { padding: 0px 0px 10px 0px; }
 
 .experience__item__time, .experience__item__location { color: #787878; float: right; clear: right; }
 
-.experience__item__company { font-style: italic; }
+.experience__item__company { display: inline-block; font-style: italic; }
 
-.experience__item__position { font-weight: 600; }
+.experience__item__position { display: inline-block; font-weight: 600; }
+
+.experience__item__description { padding-top: 4px; }
 
 .projects__item { width: 50%; float: right; padding: 00px 0px 10px 0px; }
 
 .projects__item__name { font-weight: 600; }
+
+.projects__item__description { padding-top: 4px; }
 
 .awards__item__date { color: #787878; float: right; clear: right; }
 
@@ -30,12 +36,16 @@
 
 body { color: #3c3c3c; font-family: Calibre, " Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif; margin: 12px; }
 
-.section__title { margin: 10px 0px 10px 0px; font-style: italic; font-weight: 600; font-size: 20px; }
+.section__title { margin: 10px 0px 10px 0px; font-style: italic; font-weight: 500; font-size: 20px; }
 
 .section__content { margin: 10px 0px 10px 0px; }
 
 a { text-decoration: none; color: #ca196c; }
 
 .hr { border-top: 1px solid #ca196c; }
+
+.courses { width: 49%; float: left; clear: left; }
+
+.awards { width: 49%; float: right; clear: right; }
 
 /*# sourceMappingURL=resume.css.map */
