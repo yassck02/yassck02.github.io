@@ -1,12 +1,17 @@
 <div class="header">
-  
-  <h1>THIS SITE IS A WORK IN PROGRESS</h1>
-  
-  <nav>
-    {% for item in site.data.navigation %}
-      <a href="#{{ item.link }}" 
-        {% if page.url == item.link %} 
-          class="current" 
-        {% endif %}> {{ item.name }} </a>
-    {% endfor %}
+
+  <img class="header__icon"
+    src="assets/images/icon.png" 
+    alt="connor yass personal brand logo"
+    height="35" width="35"/>
+
+  <nav class="header__links">
+    <a class="header__links__link" href="#About">About</a>
+    <a class="header__links__link" href="#Skills">Skills</a>
+    <a class="header__links__link" href="#Experience">Experience</a>
+    <a class="header__links__link" href="#Projects">Projects</a>
+    <a class="header__links__link" href="#Contact">Contact</a>
+  </nav>
+
+  <a class="header__btn-resume" href="/Resume">Résumé</a>
 </div>

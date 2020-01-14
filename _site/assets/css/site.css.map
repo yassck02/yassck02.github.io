@@ -7,6 +7,7 @@
 		"_sass/partials/_shared.scss",
 		"_sass/partials/site/_header.scss",
 		"_sass/partials/site/_intro.scss",
+		"_sass/partials/site/_about.scss",
 		"_sass/partials/site/_skills.scss",
 		"_sass/partials/site/_experience.scss",
 		"_sass/partials/site/_projects.scss",
@@ -14,17 +15,18 @@
 		"_sass/partials/site/_footer.scss"
 	],
 	"sourcesContent": [
-		"@import \"partials/colors\";\n@import \"partials/shared\";\n\n@import \"partials/site/header\";\n@import \"partials/site/intro\";\n@import \"partials/site/skills\";\n@import \"partials/site/experience\";\n@import \"partials/site/projects\";\n@import \"partials/site/contact\";\n@import \"partials/site/footer\";\n\nbody {\n  margin: 0;\n  font-family: \"Helvetica\", Times, serif;\n}\n\n.terminal {\n  border-image-source: url(../images/terminal.dark.png);\n  border-image-slice: 150 150 150 150;\n}\n\n.section {\n  height: 100vh;\n  margin: 0;\n  padding: 12px;\n}",
-		"$accent-color: #ca196c;\n$font-primary: rgb(60, 60, 60);\n$font-secondary: rgb(120, 120, 120);",
+		"@import \"partials/colors\";\n@import \"partials/shared\";\n\n@import \"partials/site/header\";\n@import \"partials/site/intro\";\n@import \"partials/site/about\";\n@import \"partials/site/skills\";\n@import \"partials/site/experience\";\n@import \"partials/site/projects\";\n@import \"partials/site/contact\";\n@import \"partials/site/footer\";\n\nbody {\n  margin: 0;\n  background: $base-color;\n  font-family: \"Helvetica\", Times, serif;\n}\n\n.terminal {\n  border-image-source: url(../images/terminal.dark.png);\n  border-image-slice: 150 150 150 150;\n}\n\n.section {\n  height: 100vh;\n\n  &__header {\n    color: blue;\n  }\n}",
+		"$base-color: #131124;\n$accent-color: #ca196c;\n$font-primary: rgb(60, 60, 60);\n$font-secondary: rgb(120, 120, 120);",
 		".code {\n  font-family: Menlo, Consolas, \"Consolas\", \"Courier New\", Courier, monospace;\n  color: gray;\n  }",
-		".header {\n  margin: 0;\n  padding: 12px;\n}",
-		".intro {\n  background: yellow\n  &__center {\n    margin: auto;\n    width: 50%;\n    border: 3px solid green;\n  }\n}",
+		".header {\n  position: fixed;\n  padding: 12px;\n  display: flex;\n  align-items: center;\n  background: $base-color;\n  border-bottom: 0.5px solid lightgray;\n  width: 100%;\n  height: 75;\n\n  &__icon {\n    &:hover {\n      fill: transparentize($color: $accent-color, $amount: 0.75);\n      cursor: pointer;\n    }\n  }\n\n  &__links {\n    &__link {\n      text-decoration: none;\n      margin-right: 12px;\n      &:hover {\n        color: $accent-color\n      }\n    }\n  }\n\n  &__btn-resume {\n    text-decoration: none;\n    float: right;\n    padding: 5px;\n    background: none;\n    color: $accent-color;\n    border: 1px solid $accent-color;\n    border-radius: 5px;\n\n    &:hover {\n      background: transparentize($color: $accent-color, $amount: 0.75);\n    }\n  }\n}",
+		".intro {\n  &__center {\n    margin: auto;\n    width: 50%;\n    border: 3px solid green;\n  }\n}",
+		"",
 		".skills {\n\n}",
 		".experience {\n\n}",
 		".projects {\n\n}",
 		".contact {\n  color: magenta;\n}",
-		".footer {\n  margin: 0;\n  padding: 12px;\n}"
+		".footer {\n  margin: 0;\n  padding: 12px;\n  width: 100%;\n  text-align: center;\n\n  &__link {\n    font-size: 12px;\n    text-decoration: none;\n  }\n}"
 	],
 	"names": [],
-	"mappings": "AEAA,AAAA,KAAK,CAAC,EACJ,WAAW,EAAE,8DAA8D,EAC3E,KAAK,EAAE,IAAI,GACV;;ACHH,AAAA,OAAO,CAAC,EACN,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,IAAI,GACd;;ACHD,AAAA,MAAM,CAAC,EACL,UAAU,EAAE,MAAM,CADpB,MAAM,CAEH,QAAQ,EACP,iBAAM,EAAE,IAAI,EACZ,gBAAK,EAAE,GAAG,EACV,iBAAM,EAAE,eAAe,GAE1B;;AIPD,AAAA,QAAQ,CAAC,EACP,KAAK,EAAE,OAAO,GACf;;ACFD,AAAA,OAAO,CAAC,EACN,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,IAAI,GACd;;ATQD,AAAA,IAAI,CAAC,EACH,MAAM,EAAE,CAAC,EACT,WAAW,EAAE,yBAAyB,GACvC;;AAED,AAAA,SAAS,CAAC,EACR,mBAAmB,EAAE,gCAAgC,EACrD,kBAAkB,EAAE,eAAe,GACpC;;AAED,AAAA,QAAQ,CAAC,EACP,MAAM,EAAE,KAAK,EACb,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,IAAI,GACd"
+	"mappings": "AEAA,AAAA,KAAK,CAAC,EACJ,WAAW,EAAE,8DAA8D,EAC3E,KAAK,EAAE,IAAI,GACV;;ACHH,AAAA,OAAO,CAAC,EACN,QAAQ,EAAE,KAAK,EACf,OAAO,EAAE,IAAI,EACb,OAAO,EAAE,IAAI,EACb,WAAW,EAAE,MAAM,EACnB,UAAU,EFLC,OAAO,EEMlB,aAAa,EAAE,qBAAqB,EACpC,KAAK,EAAE,IAAI,EACX,MAAM,EAAE,EAAE,GAgCX;;AA9BE,AACC,aADK,AACJ,MAAM,CAAC,EACN,IAAI,EFXK,wBAAO,EEYhB,MAAM,EAAE,OAAO,GAChB;;AAIA,AAAD,oBAAO,CAAC,EACN,eAAe,EAAE,IAAI,EACrB,YAAY,EAAE,IAAI,GAInB;;AANA,AAGC,oBAHK,AAGJ,MAAM,CAAC,EACN,KAAK,EFrBE,OAAO,GEsBf;;AAIJ,AAAD,mBAAa,CAAC,EACZ,eAAe,EAAE,IAAI,EACrB,KAAK,EAAE,KAAK,EACZ,OAAO,EAAE,GAAG,EACZ,UAAU,EAAE,IAAI,EAChB,KAAK,EF/BM,OAAO,EEgClB,MAAM,EAAE,GAAG,CAAC,KAAK,CFhCN,OAAO,EEiClB,aAAa,EAAE,GAAG,GAKnB;;AAZA,AASC,mBATW,AASV,MAAM,CAAC,EACN,UAAU,EFpCD,wBAAO,GEqCjB;;ACrCF,AAAD,cAAS,CAAC,EACR,MAAM,EAAE,IAAI,EACZ,KAAK,EAAE,GAAG,EACV,MAAM,EAAE,eAAe,GACxB;;AKLH,AAAA,QAAQ,CAAC,EACP,KAAK,EAAE,OAAO,GACf;;ACFD,AAAA,OAAO,CAAC,EACN,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,IAAI,EACb,KAAK,EAAE,IAAI,EACX,UAAU,EAAE,MAAM,GAMnB;;AAJE,AAAD,aAAO,CAAC,EACN,SAAS,EAAE,IAAI,EACf,eAAe,EAAE,IAAI,GACtB;;AVGH,AAAA,IAAI,CAAC,EACH,MAAM,EAAE,CAAC,EACT,UAAU,ECdC,OAAO,EDelB,WAAW,EAAE,yBAAyB,GACvC;;AAED,AAAA,SAAS,CAAC,EACR,mBAAmB,EAAE,gCAAgC,EACrD,kBAAkB,EAAE,eAAe,GACpC;;AAED,AAAA,QAAQ,CAAC,EACP,MAAM,EAAE,KAAK,GAKd;;AAHE,AAAD,gBAAS,CAAC,EACR,KAAK,EAAE,IAAI,GACZ"
 }

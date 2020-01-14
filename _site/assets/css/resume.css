@@ -1,6 +1,6 @@
 .header { text-align: center; }
 
-.header__name { font-variant: small-caps; margin: 10px 0px 10px 0px; }
+.header__name { font-weight: 600; font-size: 24pt; font-variant: small-caps; color: #3c3c3c; margin: 10px 0px 10px 0px; }
 
 .header__info { margin: 10px 0px 10px 0px; }
 
@@ -36,7 +36,7 @@
 
 body { color: #3c3c3c; font-family: Calibre, " Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif; margin: 12px; }
 
-.section__title { margin: 10px 0px 10px 0px; font-style: italic; font-weight: 500; font-size: 20px; }
+.section__title { color: #3c3c3c; font-style: italic; font-weight: 500; font-size: 20px; }
 
 .section__content { margin: 10px 0px 10px 0px; }
 

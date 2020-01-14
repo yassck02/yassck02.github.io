@@ -1,4 +1,41 @@
 .header {
-  margin: 0;
+  position: fixed;
   padding: 12px;
+  display: flex;
+  align-items: center;
+  background: $base-color;
+  border-bottom: 0.5px solid lightgray;
+  width: 100%;
+  height: 75;
+
+  &__icon {
+    &:hover {
+      fill: transparentize($color: $accent-color, $amount: 0.75);
+      cursor: pointer;
+    }
+  }
+
+  &__links {
+    &__link {
+      text-decoration: none;
+      margin-right: 12px;
+      &:hover {
+        color: $accent-color
+      }
+    }
+  }
+
+  &__btn-resume {
+    text-decoration: none;
+    float: right;
+    padding: 5px;
+    background: none;
+    color: $accent-color;
+    border: 1px solid $accent-color;
+    border-radius: 5px;
+
+    &:hover {
+      background: transparentize($color: $accent-color, $amount: 0.75);
+    }
+  }
 }

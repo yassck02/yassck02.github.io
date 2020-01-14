@@ -6,6 +6,7 @@
 
 @import "partials/site/header";
 @import "partials/site/intro";
+@import "partials/site/about";
 @import "partials/site/skills";
 @import "partials/site/experience";
 @import "partials/site/projects";
@@ -14,6 +15,7 @@
 
 body {
   margin: 0;
+  background: $base-color;
   font-family: "Helvetica", Times, serif;
 }
 
@@ -24,6 +26,8 @@ body {
 
 .section {
   height: 100vh;
-  margin: 0;
-  padding: 12px;
+
+  &__header {
+    color: blue;
+  }
 }

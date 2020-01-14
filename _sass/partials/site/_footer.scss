@@ -1,4 +1,11 @@
 .footer {
   margin: 0;
   padding: 12px;
+  width: 100%;
+  text-align: center;
+
+  &__link {
+    font-size: 12px;
+    text-decoration: none;
+  }
 }
