@@ -1,5 +1,23 @@
 .code { font-family: Menlo, Consolas, "Consolas for Powerline", "Courier New", Courier, monospace; color: red; }
 
+.header { background: yellow; margin: 0; padding: 12px; }
+
+.intro { background: green; }
+
+.navbar { background: cyan; }
+
+.skills { background: pink; }
+
+.experience { background: red; }
+
+.projects { background: purple; }
+
+.footer { background: orange; margin: 0; padding: 12px; }
+
+body { margin: 0; }
+
 .terminal { border-image-source: url(../images/terminal.dark.png); border-image-slice: 150 150 150 150; }
+
+.section { height: 100vh; margin: 0; padding: 12px; }
 
 /*# sourceMappingURL=site.css.map */

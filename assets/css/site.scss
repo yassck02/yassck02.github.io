@@ -4,8 +4,25 @@
 @import "partials/colors";
 @import "partials/shared";
 
+@import "partials/site/header";
+@import "partials/site/intro";
+@import "partials/site/navbar";
+@import "partials/site/skills";
+@import "partials/site/experience";
+@import "partials/site/projects";
+@import "partials/site/footer";
+
+body {
+  margin: 0;
+}
 
 .terminal {
   border-image-source: url(../images/terminal.dark.png);
   border-image-slice: 150 150 150 150;
+}
+
+.section {
+  height: 100vh;
+  margin: 0;
+  padding: 12px;
 }
