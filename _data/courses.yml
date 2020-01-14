@@ -6,9 +6,9 @@
   number: 355
   title: Matrices and Linear Algebra
 
-- dept: MATH
-  number: 469
-  title: Ordinary and Partial Differential Equations
+# - dept: MATH
+#   number: 469
+#   title: Ordinary and Partial Differential Equations
 
 - dept: MATH
   number: 381
@@ -20,7 +20,7 @@
 
 - dept: COMPSCI
   number: 223
-  title: Data Structures
+  title: Data Structures, Algorithms
 
 # - dept: COMPSCI
 #   number: 271

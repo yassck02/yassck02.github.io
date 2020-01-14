@@ -12,7 +12,7 @@
 
 .skills__titles__title { display: block; }
 
-.skills__lists__list__item { display: inline-block; padding: 0px 8px 0px 0px; }
+.skills__lists__list__item { display: inline-block; padding: 0px 4px 0px 0px; }
 
 .experience__item { padding: 0px 0px 10px 0px; }
 
@@ -22,13 +22,13 @@
 
 .experience__item__position { display: inline-block; font-weight: 600; }
 
-.experience__item__description { padding-top: 4px; }
+.experience__item__description { padding-top: 4px; width: 75vw; }
 
 .projects__item { width: 50%; float: right; padding: 00px 0px 10px 0px; }
 
 .projects__item__name { font-weight: 600; }
 
-.projects__item__description { padding-top: 4px; }
+.projects__item__description { padding-top: 4px; padding-right: 12px; }
 
 .awards__item__date { color: #787878; float: right; clear: right; }
 

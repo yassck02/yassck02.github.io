@@ -1,16 +1,16 @@
 .header {
 
-    text-align: center;
+  text-align: center;
 
-    &__name {
-        font-variant: small-caps;
-        margin: 10px 0px 10px 0px;
+  &__name {
+    font-variant: small-caps;
+    margin: 10px 0px 10px 0px;
+  }
+  &__info {
+    margin: 10px 0px 10px 0px;
+    * {
+      display: inline-block;
+      margin: 0px 8px 0px 8px;
     }
-    &__info {
-        margin: 10px 0px 10px 0px;
-        * {
-            display: inline-block;
-            margin: 0px 8px 0px 8px;
-        }
-    }
+  }
 }

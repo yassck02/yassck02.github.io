@@ -1,15 +1,16 @@
 .projects {
-    &__item {
-        
-        width: 50%;
-        float: right;
-        padding: 00px 0px 10px 0px;
+  &__item {
+    
+    width: 50%;
+    float: right;
+    padding: 00px 0px 10px 0px;
 
-        &__name {
-            font-weight: 600;
-        }
-        &__description {
-            padding-top: 4px;
-        }
+    &__name {
+      font-weight: 600;
     }
+    &__description {
+      padding-top: 4px;
+      padding-right: 12px;
+    }
+  }
 }

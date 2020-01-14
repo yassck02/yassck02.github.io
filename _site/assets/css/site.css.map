@@ -17,14 +17,14 @@
 		"@import \"partials/colors\";\n@import \"partials/shared\";\n\n@import \"partials/site/header\";\n@import \"partials/site/intro\";\n@import \"partials/site/navbar\";\n@import \"partials/site/skills\";\n@import \"partials/site/experience\";\n@import \"partials/site/projects\";\n@import \"partials/site/footer\";\n\nbody {\n  margin: 0;\n}\n\n.terminal {\n  border-image-source: url(../images/terminal.dark.png);\n  border-image-slice: 150 150 150 150;\n}\n\n.section {\n  height: 100vh;\n  margin: 0;\n  padding: 12px;\n}",
 		"$accent-color: #ca196c;\n$font-primary: rgb(60, 60, 60);\n$font-secondary: rgb(120, 120, 120);",
 		".code {\n    font-family: Menlo, Consolas, \"Consolas for Powerline\", \"Courier New\", Courier, monospace;\n    color: red;\n  }",
-		".header {\n    background: yellow;\n    margin: 0;\n    padding: 12px;\n}",
-		".intro {\n    background: green;\n}",
-		".navbar {\n    background: cyan;\n}",
-		".skills {\n    background: pink;\n}",
-		".experience {\n    background: red;\n}",
-		".projects {\n    background: purple;\n}",
-		".footer {\n    background: orange;\n    margin: 0;\n    padding: 12px;\n}"
+		".header {\n  background: yellow;\n  margin: 0;\n  padding: 12px;\n}",
+		".intro {\n  background: green;\n}",
+		".navbar {\n  background: cyan;\n}",
+		".skills {\n  background: pink;\n}",
+		".experience {\n  background: red;\n}",
+		".projects {\n  background: purple;\n}",
+		".footer {\n  background: orange;\n  margin: 0;\n  padding: 12px;\n}"
 	],
 	"names": [],
-	"mappings": "AEAA,AAAA,KAAK,CAAC,EACF,WAAW,EAAE,4EAA4E,EACzF,KAAK,EAAE,GAAG,GACX;;ACHH,AAAA,OAAO,CAAC,EACJ,UAAU,EAAE,MAAM,EAClB,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,IAAI,GAChB;;ACJD,AAAA,MAAM,CAAC,EACH,UAAU,EAAE,KAAK,GACpB;;ACFD,AAAA,OAAO,CAAC,EACJ,UAAU,EAAE,IAAI,GACnB;;ACFD,AAAA,OAAO,CAAC,EACJ,UAAU,EAAE,IAAI,GACnB;;ACFD,AAAA,WAAW,CAAC,EACR,UAAU,EAAE,GAAG,GAClB;;ACFD,AAAA,SAAS,CAAC,EACN,UAAU,EAAE,MAAM,GACrB;;ACFD,AAAA,OAAO,CAAC,EACJ,UAAU,EAAE,MAAM,EAClB,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,IAAI,GAChB;;ATOD,AAAA,IAAI,CAAC,EACH,MAAM,EAAE,CAAC,GACV;;AAED,AAAA,SAAS,CAAC,EACR,mBAAmB,EAAE,gCAAgC,EACrD,kBAAkB,EAAE,eAAe,GACpC;;AAED,AAAA,QAAQ,CAAC,EACP,MAAM,EAAE,KAAK,EACb,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,IAAI,GACd"
+	"mappings": "AEAA,AAAA,KAAK,CAAC,EACF,WAAW,EAAE,4EAA4E,EACzF,KAAK,EAAE,GAAG,GACX;;ACHH,AAAA,OAAO,CAAC,EACN,UAAU,EAAE,MAAM,EAClB,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,IAAI,GACd;;ACJD,AAAA,MAAM,CAAC,EACL,UAAU,EAAE,KAAK,GAClB;;ACFD,AAAA,OAAO,CAAC,EACN,UAAU,EAAE,IAAI,GACjB;;ACFD,AAAA,OAAO,CAAC,EACN,UAAU,EAAE,IAAI,GACjB;;ACFD,AAAA,WAAW,CAAC,EACV,UAAU,EAAE,GAAG,GAChB;;ACFD,AAAA,SAAS,CAAC,EACR,UAAU,EAAE,MAAM,GACnB;;ACFD,AAAA,OAAO,CAAC,EACN,UAAU,EAAE,MAAM,EAClB,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,IAAI,GACd;;ATOD,AAAA,IAAI,CAAC,EACH,MAAM,EAAE,CAAC,GACV;;AAED,AAAA,SAAS,CAAC,EACR,mBAAmB,EAAE,gCAAgC,EACrD,kBAAkB,EAAE,eAAe,GACpC;;AAED,AAAA,QAAQ,CAAC,EACP,MAAM,EAAE,KAAK,EACb,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,IAAI,GACd"
 }

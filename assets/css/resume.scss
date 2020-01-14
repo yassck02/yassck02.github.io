@@ -13,40 +13,40 @@
 @import "partials/resume/keywords";
 
 body {
-    color: $font-primary;
-    font-family: Calibre, " Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
-    margin: 12px;
+  color: $font-primary;
+  font-family: Calibre, " Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  margin: 12px;
 }
 
 .section {
-    &__title {
-        margin: 10px 0px 10px 0px;
-        font-style: italic;
-        font-weight: 500;
-        font-size: 20px;
-    }
-    &__content {
-        margin: 10px 0px 10px 0px;
-    }
+  &__title {
+    margin: 10px 0px 10px 0px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  &__content {
+    margin: 10px 0px 10px 0px;
+  }
 }
 
 a {
-    text-decoration: none;
-    color: $accent-color;
+  text-decoration: none;
+  color: $accent-color;
 }
 
 .hr {
-    border-top: 1px solid $accent-color;
+  border-top: 1px solid $accent-color;
 }
 
 .courses {
-    width: 49%;
-    float: left;
-    clear: left;
+  width: 49%;
+  float: left;
+  clear: left;
 }
 
 .awards {
-    width: 49%;
-    float: right;
-    clear: right;
+  width: 49%;
+  float: right;
+  clear: right;
 }

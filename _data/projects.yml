@@ -16,8 +16,8 @@
   description: > 
     Designed, developed and released a peer 
     to peer messaging app on the iOS platform; 
-    Responded to bug reports, ran marketing campaigns 
-    and managed overall UX design
+    Responded to bug reports, managed UX 
+    design and more
   used:
     - item: iOS
     - item: Blutooth
@@ -42,9 +42,8 @@
   url: 
   description: > 
     Led a small cross-disciplinary team that designed
-    and produced an assemblable model of the human
-    larynx for use in a classroom setting; Presented
-    at multiple conferences
+    and produced an 3D-printable model of the human
+    larynx for use in a classroom setting
   used:
     - item: 3D Printing
     - item: Undergraduate Research
