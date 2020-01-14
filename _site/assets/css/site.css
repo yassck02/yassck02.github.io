@@ -1,20 +1,14 @@
-.code { font-family: Menlo, Consolas, "Consolas for Powerline", "Courier New", Courier, monospace; color: red; }
+.code { font-family: Menlo, Consolas, "Consolas", "Courier New", Courier, monospace; color: gray; }
 
-.header { background: yellow; margin: 0; padding: 12px; }
+.header { margin: 0; padding: 12px; }
 
-.intro { background: green; }
+.intro { background: yellow .intro __center; background-margin: auto; background-width: 50%; background-border: 3px solid green; }
 
-.navbar { background: cyan; }
+.contact { color: magenta; }
 
-.skills { background: pink; }
+.footer { margin: 0; padding: 12px; }
 
-.experience { background: red; }
-
-.projects { background: purple; }
-
-.footer { background: orange; margin: 0; padding: 12px; }
-
-body { margin: 0; }
+body { margin: 0; font-family: "Helvetica", Times, serif; }
 
 .terminal { border-image-source: url(../images/terminal.dark.png); border-image-slice: 150 150 150 150; }
 

@@ -4,16 +4,16 @@
   <div class="section__content">
     <div class="skills__titles">
     {% for category in site.data.skills %}
-    <div class="skills__titles__title">{{ category[0] }}</div>
+      <div class="skills__titles__title">{{ category[0] }}</div>
     {% endfor %}
     </div>
     <div class="skills__lists">
       {% for category in site.data.skills %}
-      <div class="skills__lists__list">
-        {% for item in category[1] %}
-        <div class="skills__lists__list__item">{{ item.item }},</div>
-        {% endfor %}
-      </div>
+        <div class="skills__lists__list">
+          {% for item in category[1] %}
+            <div class="skills__lists__list__item">{{ item.item }},</div>
+          {% endfor %}
+        </div>
       {% endfor %}
     </div>
   </div>

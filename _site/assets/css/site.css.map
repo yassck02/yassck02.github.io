@@ -7,24 +7,24 @@
 		"_sass/partials/_shared.scss",
 		"_sass/partials/site/_header.scss",
 		"_sass/partials/site/_intro.scss",
-		"_sass/partials/site/_navbar.scss",
 		"_sass/partials/site/_skills.scss",
 		"_sass/partials/site/_experience.scss",
 		"_sass/partials/site/_projects.scss",
+		"_sass/partials/site/_contact.scss",
 		"_sass/partials/site/_footer.scss"
 	],
 	"sourcesContent": [
-		"@import \"partials/colors\";\n@import \"partials/shared\";\n\n@import \"partials/site/header\";\n@import \"partials/site/intro\";\n@import \"partials/site/navbar\";\n@import \"partials/site/skills\";\n@import \"partials/site/experience\";\n@import \"partials/site/projects\";\n@import \"partials/site/footer\";\n\nbody {\n  margin: 0;\n}\n\n.terminal {\n  border-image-source: url(../images/terminal.dark.png);\n  border-image-slice: 150 150 150 150;\n}\n\n.section {\n  height: 100vh;\n  margin: 0;\n  padding: 12px;\n}",
+		"@import \"partials/colors\";\n@import \"partials/shared\";\n\n@import \"partials/site/header\";\n@import \"partials/site/intro\";\n@import \"partials/site/skills\";\n@import \"partials/site/experience\";\n@import \"partials/site/projects\";\n@import \"partials/site/contact\";\n@import \"partials/site/footer\";\n\nbody {\n  margin: 0;\n  font-family: \"Helvetica\", Times, serif;\n}\n\n.terminal {\n  border-image-source: url(../images/terminal.dark.png);\n  border-image-slice: 150 150 150 150;\n}\n\n.section {\n  height: 100vh;\n  margin: 0;\n  padding: 12px;\n}",
 		"$accent-color: #ca196c;\n$font-primary: rgb(60, 60, 60);\n$font-secondary: rgb(120, 120, 120);",
-		".code {\n    font-family: Menlo, Consolas, \"Consolas for Powerline\", \"Courier New\", Courier, monospace;\n    color: red;\n  }",
-		".header {\n  background: yellow;\n  margin: 0;\n  padding: 12px;\n}",
-		".intro {\n  background: green;\n}",
-		".navbar {\n  background: cyan;\n}",
-		".skills {\n  background: pink;\n}",
-		".experience {\n  background: red;\n}",
-		".projects {\n  background: purple;\n}",
-		".footer {\n  background: orange;\n  margin: 0;\n  padding: 12px;\n}"
+		".code {\n  font-family: Menlo, Consolas, \"Consolas\", \"Courier New\", Courier, monospace;\n  color: gray;\n  }",
+		".header {\n  margin: 0;\n  padding: 12px;\n}",
+		".intro {\n  background: yellow\n  &__center {\n    margin: auto;\n    width: 50%;\n    border: 3px solid green;\n  }\n}",
+		".skills {\n\n}",
+		".experience {\n\n}",
+		".projects {\n\n}",
+		".contact {\n  color: magenta;\n}",
+		".footer {\n  margin: 0;\n  padding: 12px;\n}"
 	],
 	"names": [],
-	"mappings": "AEAA,AAAA,KAAK,CAAC,EACF,WAAW,EAAE,4EAA4E,EACzF,KAAK,EAAE,GAAG,GACX;;ACHH,AAAA,OAAO,CAAC,EACN,UAAU,EAAE,MAAM,EAClB,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,IAAI,GACd;;ACJD,AAAA,MAAM,CAAC,EACL,UAAU,EAAE,KAAK,GAClB;;ACFD,AAAA,OAAO,CAAC,EACN,UAAU,EAAE,IAAI,GACjB;;ACFD,AAAA,OAAO,CAAC,EACN,UAAU,EAAE,IAAI,GACjB;;ACFD,AAAA,WAAW,CAAC,EACV,UAAU,EAAE,GAAG,GAChB;;ACFD,AAAA,SAAS,CAAC,EACR,UAAU,EAAE,MAAM,GACnB;;ACFD,AAAA,OAAO,CAAC,EACN,UAAU,EAAE,MAAM,EAClB,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,IAAI,GACd;;ATOD,AAAA,IAAI,CAAC,EACH,MAAM,EAAE,CAAC,GACV;;AAED,AAAA,SAAS,CAAC,EACR,mBAAmB,EAAE,gCAAgC,EACrD,kBAAkB,EAAE,eAAe,GACpC;;AAED,AAAA,QAAQ,CAAC,EACP,MAAM,EAAE,KAAK,EACb,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,IAAI,GACd"
+	"mappings": "AEAA,AAAA,KAAK,CAAC,EACJ,WAAW,EAAE,8DAA8D,EAC3E,KAAK,EAAE,IAAI,GACV;;ACHH,AAAA,OAAO,CAAC,EACN,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,IAAI,GACd;;ACHD,AAAA,MAAM,CAAC,EACL,UAAU,EAAE,MAAM,CADpB,MAAM,CAEH,QAAQ,EACP,iBAAM,EAAE,IAAI,EACZ,gBAAK,EAAE,GAAG,EACV,iBAAM,EAAE,eAAe,GAE1B;;AIPD,AAAA,QAAQ,CAAC,EACP,KAAK,EAAE,OAAO,GACf;;ACFD,AAAA,OAAO,CAAC,EACN,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,IAAI,GACd;;ATQD,AAAA,IAAI,CAAC,EACH,MAAM,EAAE,CAAC,EACT,WAAW,EAAE,yBAAyB,GACvC;;AAED,AAAA,SAAS,CAAC,EACR,mBAAmB,EAAE,gCAAgC,EACrD,kBAAkB,EAAE,eAAe,GACpC;;AAED,AAAA,QAAQ,CAAC,EACP,MAAM,EAAE,KAAK,EACb,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,IAAI,GACd"
 }
