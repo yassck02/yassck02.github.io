@@ -1,52 +1,90 @@
-- name: Spirographer
-  url: https://github.com/yassck02/spirographer
-  description: > 
-    Developed an iOS application that utilizes
-    Metal to plot and render spirograph designs
-    in real time; Written in native Swift
-  used:
-    - item: Metal
-    - item: Swift
-    - item: MacOS
-    - item: iPadOS
-    - item: Xcode
+Highlighted:
 
-- name: Chalk-Talk
-  url: 
-  description: > 
-    Designed, developed and released a peer 
-    to peer messaging app on the iOS platform; 
-    Responded to bug reports, managed UX 
-    design and more
-  used:
-    - item: iOS
-    - item: Blutooth
-    - item: Multipeer Connectivity
-    - item: Wireless
-    - item: Interface Builder
+  - name: Spirographer
+    url: https://github.com/yassck02/spirographer
+    description: > 
+      Developed an iOS application that utilizes
+      Metal to plot and render spirograph designs
+      in real time; Written in native Swift
+    used:
+      - item: Metal
+      - item: Swift
+      - item: MacOS
+      - item: iPadOS
+      - item: Xcode
 
-- name: Family-Feud
-  url: https://github.com/yassck02/familyfeud
-  description: > 
-    Implemented a command line version of the tv game show 
-    that utilizes a text based UI and client server architecture; 
-    Written in Python
-  used:
-    - item: Python
-    - item: Bash
-    - item: Text-Based UI
-    - item: Command Line
-    - item: Client-Server
+  - name: Chalk-Talk
+    url: 
+    description: > 
+      Designed, developed and released a peer 
+      to peer messaging app on the iOS platform; 
+      Responded to bug reports, managed UX 
+      design and more
+    used:
+      - item: iOS
+      - item: Blutooth
+      - item: Multipeer Connectivity
+      - item: Wireless
+      - item: Interface Builder
 
-- name: 3D printable study tool
-  url: 
-  description: > 
-    Led a small cross-disciplinary team that designed
-    and produced an 3D-printable model of the human
-    larynx for use in a classroom setting
-  used:
-    - item: 3D Printing
-    - item: Undergraduate Research
-    - item: Multi-Material
-    - item: Study Tool
-    - item: Autodesk 3Ds Max
+  - name: Family-Feud
+    url: https://github.com/yassck02/familyfeud
+    description: > 
+      Implemented a command line version of the tv game show 
+      that utilizes a text based UI and client server architecture; 
+      Written in Python
+    used:
+      - item: Python
+      - item: Bash
+      - item: Text-Based UI
+      - item: Command Line
+      - item: Client-Server
+
+  - name: 3D printable study tool
+    url: 
+    description: > 
+      Led a small cross-disciplinary team that designed
+      and produced an 3D-printable model of the human
+      larynx for use in a classroom setting
+    used:
+      - item: 3D Printing
+      - item: Undergraduate Research
+      - item: Multi-Material
+      - item: Study Tool
+      - item: Autodesk 3Ds Max
+
+Other:
+
+  - name: Leo
+    url: https://github.com/yassck02/Leo
+    description: > 
+      A 3D model of a full-body, virtual reality, 
+      force feedback exoskeleton
+    imageURL: https://github.com/yassck02/Leo/blob/master/images/img00013.png?raw=true
+    used:
+      - item: 3D Printing
+      - item: Autodesk 3Ds Max
+      - item: Autodesk Maya
+
+  - name: Mandelbrot-Set
+    url: https://github.com/yassck02/Mandelbrot-Set
+    description: > 
+      A Swift application that renders the Mandelbrot
+      set using Metal GPU shaders
+    imageURL: https://github.com/yassck02/Mandelbrot-Set/blob/master/images/img00003.png?raw=true
+    used:
+      - item: iOS
+      - item: Swift
+      - item: MetalKit
+      - item: GPU Shaders 
+
+  - name: L-System-Viewer
+    url: https://github.com/yassck02/L-System-Viewer
+    description: > 
+      A Swift application that generates and renders 
+      complext fractals and patterns (Lyndenmeyer Systems)
+    imageURL: https://github.com/yassck02/L-System-Viewer/blob/master/images/img00018.png?raw=true
+    used:
+      - item: Swift
+      - item: iOS
+
