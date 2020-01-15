@@ -14,9 +14,13 @@
 @import "partials/site/footer";
 
 body {
-  margin: 0;
   background: $base-color;
   font-family: "Helvetica", Times, serif;
+  color: $font-primary_light;
+}
+
+a {
+  color: $font-primary_light;
 }
 
 .terminal {
@@ -26,6 +30,7 @@ body {
 
 .section {
   height: 100vh;
+  border: 1px solid red;
 
   &__header {
     color: blue;

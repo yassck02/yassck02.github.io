@@ -1,58 +1,5 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Page Not Found</title>
-    <link rel="stylesheet" href="/assets/css/site.css">
-  </head>
-  <body>
-    <div class="header code">
-
-  <div class="header__logo">
-    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 1024 1024">
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 1024 1024">
   <metadata id="metadata8">image/svg+xml</metadata>
   <title>Personal-Logo</title>
   <path fill-rule="nonzero" d="m965.817871,963.872986c-54.510864,55.885071 -144.732056,57.252319 -200.832703,2.964172c-39.333191,-38.064087 -51.921936,-93.078003 -37.768188,-141.993591c10.56897,-36.526917 1.035217,-75.899353 -25.852661,-102.78717l-100.722168,-100.722229c-26.08374,-26.083557 -64.100342,-36.270081 -99.730286,-26.722778l-137.338531,36.799988c-36.433044,9.761719 -65.097412,38.438477 -73.795135,75.140564c-5.805542,24.502136 -18.184967,47.762817 -37.138138,66.973755c-55.204803,55.953064 -146.262138,56.30896 -201.882339,0.768005c-55.65223,-55.571655 -55.676957,-145.737061 -0.074257,-201.339844c55.467712,-55.467651 144.481514,-55.856323 200.407951,-0.851624c1.184753,1.165955 2.344604,2.346558 3.479706,3.541382c25.980606,27.362244 64.926224,38.180786 101.371567,28.414917l137.620117,-36.874268c35.629883,-9.547241 63.460083,-37.377441 73.007385,-73.007324l36.875305,-137.622192c9.765747,-36.445374 -1.052734,-75.390991 -28.414856,-101.370621c-1.195923,-1.13504 -2.376465,-2.296021 -3.542419,-3.480698c-55.003723,-55.927444 -54.615112,-144.940269 0.852539,-200.406879c55.602661,-55.60278 145.76825,-55.577974 201.340027,0.074203c55.540833,55.620274 55.185059,146.677601 -0.768127,201.882313c-19.210938,18.953201 -42.47168,31.332626 -66.973816,37.13829c-36.701111,8.697662 -65.377686,37.361969 -75.140503,73.794983l-36.800049,137.339844c-9.547241,35.629639 0.639282,73.646362 26.722839,99.730042l100.722229,100.722168c26.549683,26.549622 65.540527,37.003113 101.508667,26.229004c48.520752,-14.535278 103.267578,-2.640442 141.594727,35.686646c55.151062,55.151123 55.574951,144.305054 1.271118,199.978943" id="svg_1"/>
 </svg>
-  </div>
-
-  <nav class="header__links">
-  
-    <div class="header__links__link">
-      <p class="header__links__link__index">00.</p>
-      <a class="header__links__link__label" href="#About">About</a>
-    </div>
-  
-    <div class="header__links__link">
-      <p class="header__links__link__index">01.</p>
-      <a class="header__links__link__label" href="#Skills">Skills</a>
-    </div>
-  
-    <div class="header__links__link">
-      <p class="header__links__link__index">02.</p>
-      <a class="header__links__link__label" href="#Experience">Experience</a>
-    </div>
-  
-    <div class="header__links__link">
-      <p class="header__links__link__index">03.</p>
-      <a class="header__links__link__label" href="#Projects">Projects</a>
-    </div>
-  
-    <div class="header__links__link">
-      <p class="header__links__link__index">04.</p>
-      <a class="header__links__link__label" href="#Contact">Contact</a>
-    </div>
-  
-  </nav>
-
-  <a class="header__btn-resume" href="/Resume">Resume</a>
-  
-</div>
-    <p>Error: 404 - This is not the page you are looking for</p>
-    <div class="footer">
-  <a href="https://github.com/yassck02/yassck02.github.io" class="footer__link code">
-    Designed & Built by Connor Yass
-  </a>
-</div>
-  </body>
-</html>

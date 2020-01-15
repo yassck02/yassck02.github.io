@@ -1,7 +1,7 @@
 .intro {
-  &__center {
-    margin: auto;
-    width: 50%;
-    border: 3px solid green;
+  &__title {
+    margin: 8px 0 8px 0;
+    color: $font-primary;
+    font-size: 48pt;
   }
 }

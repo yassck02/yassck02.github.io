@@ -1,30 +1,40 @@
-.code { font-family: Menlo, Consolas, "Consolas", "Courier New", Courier, monospace; color: gray; }
+.code { font-family: Menlo, Consolas, "Consolas", "Courier New", Courier, monospace; }
 
-.header { position: fixed; padding: 12px; display: flex; align-items: center; background: #131124; border-bottom: 0.5px solid lightgray; width: 100%; height: 75; }
+a { text-decoration: none; }
 
-.header__icon:hover { fill: rgba(202, 25, 108, 0.25); cursor: pointer; }
+.header { padding: 12px; display: flex; align-items: center; font-size: 9pt; }
 
-.header__links__link { text-decoration: none; margin-right: 12px; }
+.header__logo path { fill: #bbff00; }
 
-.header__links__link:hover { color: #ca196c; }
+.header__links * { display: inline-block; }
 
-.header__btn-resume { text-decoration: none; float: right; padding: 5px; background: none; color: #ca196c; border: 1px solid #ca196c; border-radius: 5px; }
+.header__links__link { padding-right: 15pt; }
 
-.header__btn-resume:hover { background: rgba(202, 25, 108, 0.25); }
+.header__links__link__index { color: #bbff00; }
 
-.intro__center { margin: auto; width: 50%; border: 3px solid green; }
+.header__links__link__label:hover { color: #bbff00; }
+
+.header__btn-resume { float: right; padding: 10px 12px 10px 12px; color: #bbff00; border: 1px solid #bbff00; border-radius: 4px; }
+
+.header__btn-resume:hover { background: rgba(187, 255, 0, 0.25); }
+
+.intro__title { margin: 8px 0 8px 0; color: #3c3c3c; font-size: 48pt; }
 
 .contact { color: magenta; }
 
 .footer { margin: 0; padding: 12px; width: 100%; text-align: center; }
 
-.footer__link { font-size: 12px; text-decoration: none; }
+.footer__link { font-size: 12px; }
 
-body { margin: 0; background: #131124; font-family: "Helvetica", Times, serif; }
+.footer__link:hover { text-decoration: underline; text-decoration-color: #bbff00; }
+
+body { background: #131124; font-family: "Helvetica", Times, serif; color: #a7a7a7; }
+
+a { color: #a7a7a7; }
 
 .terminal { border-image-source: url(../images/terminal.dark.png); border-image-slice: 150 150 150 150; }
 
-.section { height: 100vh; }
+.section { height: 100vh; border: 1px solid red; }
 
 .section__header { color: blue; }
 

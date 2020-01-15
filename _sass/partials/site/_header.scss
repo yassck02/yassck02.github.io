@@ -1,38 +1,38 @@
 .header {
-  position: fixed;
   padding: 12px;
   display: flex;
   align-items: center;
-  background: $base-color;
-  border-bottom: 0.5px solid lightgray;
-  width: 100%;
-  height: 75;
+  font-size: 9pt;
 
-  &__icon {
-    &:hover {
-      fill: transparentize($color: $accent-color, $amount: 0.75);
-      cursor: pointer;
+  &__logo {
+    path {
+      fill: $accent-color;
     }
   }
 
   &__links {
+    * {
+      display: inline-block;
+    }
     &__link {
-      text-decoration: none;
-      margin-right: 12px;
-      &:hover {
-        color: $accent-color
+      padding-right: 15pt;
+      &__index {
+        color: $accent-color;
+      }
+      &__label {
+        &:hover {
+          color: $accent-color;
+        }
       }
     }
   }
 
   &__btn-resume {
-    text-decoration: none;
     float: right;
-    padding: 5px;
-    background: none;
+    padding: 10px 12px 10px 12px;
     color: $accent-color;
     border: 1px solid $accent-color;
-    border-radius: 5px;
+    border-radius: 4px;
 
     &:hover {
       background: transparentize($color: $accent-color, $amount: 0.75);
