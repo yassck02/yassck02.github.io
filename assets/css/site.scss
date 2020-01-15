@@ -5,6 +5,7 @@
 @import "partials/shared";
 
 @import "partials/site/header";
+@import "partials/site/social-media-links";
 @import "partials/site/intro";
 @import "partials/site/about";
 @import "partials/site/skills";
@@ -21,7 +22,7 @@ body {
   background: $base-color;
   font-family: "Helvetica", Times, serif;
   color: $font-primary_light;
-  padding: 12pt 48pt 0pt 48pt;
+  padding: 12pt 40pt 0pt 40pt;
 }
 
 a {

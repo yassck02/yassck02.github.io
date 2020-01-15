@@ -1,12 +1,19 @@
 {% assign info = site.data.info %}
-<div class="section intro">
+<div class="section intro fade-in">
+  
   <div class="center">
     <p class="code">Hello World! My name is</p>
     <h1 class="intro__title">{{ info.name }}.</h1>
     <p class="code">I develop software.</p>
   </div>
+
   <div class="intro__description">
     I'm a software engineer from Milwaukee, Wisconsin 
     specializing in mobile application developement. 
   </div>
+
+  <div class="intro__social-media-links">
+    {% include site/social-media-links.html %}
+  </div>
+
 </div>
