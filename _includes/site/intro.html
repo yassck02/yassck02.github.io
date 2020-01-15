@@ -1,7 +1,12 @@
+{% assign info = site.data.info %}
 <div class="section intro">
   <div class="center">
     <p class="code">Hello World! My name is</p>
-    <h1 class="intro__title">Connor Yass.</h1>
+    <h1 class="intro__title">{{ info.name }}.</h1>
     <p class="code">I develop software.</p>
+  </div>
+  <div class="intro__description">
+    I'm a software engineer from Milwaukee, Wisconsin 
+    specializing in mobile application developement. 
   </div>
 </div>

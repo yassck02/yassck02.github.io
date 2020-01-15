@@ -2,9 +2,18 @@
 
 a { text-decoration: none; }
 
-.header { padding: 12px; display: flex; align-items: center; font-size: 9pt; }
+.rotate { animation: rotation 12s infinite linear; }
+
+@keyframes rotation { from { transform: rotate(0deg); }
+  to { transform: rotate(359deg); } }
+
+.header { padding: 12px; font-size: 9pt; }
+
+.header__logo { display: inline-block; width: 40; height: 40; }
 
 .header__logo path { fill: #bbff00; }
+
+.header__links { float: right; }
 
 .header__links * { display: inline-block; }
 
@@ -14,13 +23,19 @@ a { text-decoration: none; }
 
 .header__links__link__label:hover { color: #bbff00; }
 
-.header__btn-resume { float: right; padding: 10px 12px 10px 12px; color: #bbff00; border: 1px solid #bbff00; border-radius: 4px; }
-
-.header__btn-resume:hover { background: rgba(187, 255, 0, 0.25); }
+.intro { height: 100vh; }
 
 .intro__title { margin: 8px 0 8px 0; color: #3c3c3c; font-size: 48pt; }
 
-.contact { color: magenta; }
+.about { height: 100vh; }
+
+.skills { height: 100vh; }
+
+.experience { height: 100vh; }
+
+.projects { height: 100vh; }
+
+.contact { height: 100vh; }
 
 .footer { margin: 0; padding: 12px; width: 100%; text-align: center; }
 
@@ -28,14 +43,22 @@ a { text-decoration: none; }
 
 .footer__link:hover { text-decoration: underline; text-decoration-color: #bbff00; }
 
-body { background: #131124; font-family: "Helvetica", Times, serif; color: #a7a7a7; }
+html { scroll-behavior: smooth; }
+
+body { background: #131124; font-family: "Helvetica", Times, serif; color: #a7a7a7; padding: 12pt 48pt 0pt 48pt; }
 
 a { color: #a7a7a7; }
 
 .terminal { border-image-source: url(../images/terminal.dark.png); border-image-slice: 150 150 150 150; }
 
-.section { height: 100vh; border: 1px solid red; }
+.btn { padding: 10px 12px 10px 12px; color: #bbff00; border: 1px solid #bbff00; border-radius: 4px; }
 
-.section__header { color: blue; }
+.btn:hover { background: rgba(187, 255, 0, 0.25); }
+
+.section__header { font-size: 20pt; color: #a7a7a7; }
+
+.section__header * { display: inline; }
+
+.section__header__index { color: #bbff00; }
 
 /*# sourceMappingURL=site.css.map */

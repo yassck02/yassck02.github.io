@@ -1,16 +1,27 @@
+.rotate {
+  animation: rotation 12s infinite linear;
+}
+
+@keyframes rotation {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(359deg); }
+}
+
 .header {
   padding: 12px;
-  display: flex;
-  align-items: center;
   font-size: 9pt;
 
   &__logo {
+    display: inline-block;
+    width: 40;
+    height: 40;
     path {
       fill: $accent-color;
     }
   }
 
   &__links {
+    float: right;
     * {
       display: inline-block;
     }
@@ -24,18 +35,6 @@
           color: $accent-color;
         }
       }
-    }
-  }
-
-  &__btn-resume {
-    float: right;
-    padding: 10px 12px 10px 12px;
-    color: $accent-color;
-    border: 1px solid $accent-color;
-    border-radius: 4px;
-
-    &:hover {
-      background: transparentize($color: $accent-color, $amount: 0.75);
     }
   }
 }
