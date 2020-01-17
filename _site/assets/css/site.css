@@ -41,6 +41,10 @@ a { text-decoration: none; }
 
 .experience { height: 100vh; }
 
+.experience__tabs__tab { background: red; }
+
+.experience__tab-content { background: cyan; }
+
 .projects { height: 100vh; }
 
 .contact { height: 100vh; }
@@ -62,6 +66,8 @@ a { color: #cfcfcf; }
 .btn { padding: 10px 12px 10px 12px; color: #bbff00; border: 1px solid #bbff00; border-radius: 4px; }
 
 .btn:hover { background: rgba(187, 255, 0, 0.25); }
+
+.section { display: flex; align-items: center; justify-content: center; }
 
 .section__header { font-size: 20pt; color: #cfcfcf; }
 

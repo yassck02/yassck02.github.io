@@ -2,6 +2,21 @@
 <div class="section experience fade-in">
   <div class="section__header">
     <p class="section__header__index code">02.</p>
-    <h3>Experience</h3>
+    <h3>Places I've Worked</h3>
+
+    <div class="experience__tabs">
+      {% for experience in site.data.experiences %}
+        <button class="experience__tabs__tab" onclick="openTab(event, '{{ experience.company }}')">{{ experience.company }}</button>
+      {% endfor %}
+    </div>
+    
+
+    {% for experience in site.data.experiences %}
+      <div id="{{ experience.company }}" class="experience__tab-content">
+        <h3>{{ experience.location }}</h3>
+        <p>{{ experience.description }}</p>
+      </div>
+    {% endfor %}
+
   </div>
 </div>

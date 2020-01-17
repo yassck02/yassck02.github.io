@@ -1,6 +1,6 @@
-- company: NASA Langley Research Center
+- company: NASA
   url: https://www.NASA.gov/
-  locaiton: Hampton, VA
+  locaiton: Langley Research Center - Hampton, VA
   time: Sept '19 - Dec '19
   position: AR / VR Software Developer
   description: Designed and implemented an augmented reality application to track unmanned aerial vehicles. Prototyped multiple different use cases for AR in the aerospace industry on the iOS platform

@@ -46,6 +46,9 @@ a {
 }
 
 .section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   &__header {
     font-size: 20pt;
     color: $font-primary_light;
