@@ -8,7 +8,11 @@
       <div class="experience__item__location">{{ experience.location }}</div>
       <div class="experience__item__position">{{ experience.position}}</div>
       <div class="experience__item__company">- {{ experience.company }}</div>
-      <div class="experience__item__description">{{ experience.description }}</div>
+      <div class="experience__item__description">
+        {% for item in experience.description %}
+          <p>- {{ item }}</p>
+        {% endfor %}
+      </div>
     </div>
     {% endfor %}
   </div>

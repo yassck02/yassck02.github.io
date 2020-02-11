@@ -21,7 +21,7 @@ body {
 .section {
   &__title {
     color: $font-primary;
-    font-style: italic;
+    // font-style: italic;
     font-weight: 500;
     font-size: 20px;
   }
@@ -36,17 +36,17 @@ a {
 }
 
 .hr {
-  border-top: 1px solid $accent-color;
+  border-top: 1.5px solid $accent-color;
 }
 
 .courses {
-  width: 49%;
+  width: 47%;
   float: left;
   clear: left;
 }
 
 .awards {
-  width: 49%;
+  width: 50%;
   float: right;
   clear: right;
 }

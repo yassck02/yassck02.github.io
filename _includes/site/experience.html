@@ -14,7 +14,9 @@
     {% for experience in site.data.experiences %}
       <div id="{{ experience.company }}" class="experience__tab-content">
         <h3>{{ experience.location }}</h3>
-        <p>{{ experience.description }}</p>
+        {% for item in experience.description %}
+          <p>- {{ item }}</p>
+        {% endfor %}
       </div>
     {% endfor %}
 

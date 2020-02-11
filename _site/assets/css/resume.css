@@ -1,6 +1,6 @@
 .header { text-align: center; }
 
-.header__name { font-weight: 600; font-size: 24pt; font-variant: small-caps; color: #cfcfcf; margin: 10px 0px 10px 0px; }
+.header__name { font-weight: 600; font-size: 24pt; font-variant: small-caps; color: #3c3c3c; margin: 10px 0px 10px 0px; }
 
 .header__info { margin: 10px 0px 10px 0px; }
 
@@ -24,6 +24,8 @@
 
 .experience__item__description { padding-top: 4px; width: 75vw; }
 
+.experience__item__description p { margin: 0; }
+
 .projects__item { width: 50%; float: right; padding: 00px 0px 10px 0px; }
 
 .projects__item__name { font-weight: 600; }
@@ -36,16 +38,16 @@
 
 body { color: #3c3c3c; font-family: Calibre, " Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif; margin: 12px; }
 
-.section__title { color: #3c3c3c; font-style: italic; font-weight: 500; font-size: 20px; }
+.section__title { color: #3c3c3c; font-weight: 500; font-size: 20px; }
 
 .section__content { margin: 10px 0px 10px 0px; }
 
-a { color: #bbff00; text-decoration: none; }
+a { color: #9c0049; text-decoration: none; }
 
-.hr { border-top: 1px solid #bbff00; }
+.hr { border-top: 1.5px solid #9c0049; }
 
-.courses { width: 49%; float: left; clear: left; }
+.courses { width: 47%; float: left; clear: left; }
 
-.awards { width: 49%; float: right; clear: right; }
+.awards { width: 50%; float: right; clear: right; }
 
 /*# sourceMappingURL=resume.css.map */
