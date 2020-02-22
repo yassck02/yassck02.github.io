@@ -46,9 +46,12 @@ a {
 }
 
 .section {
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+
   &__header {
     font-size: 20pt;
     color: $font-primary_light;
@@ -58,5 +61,8 @@ a {
     &__index {
       color: $accent-color
     }
+  }
+
+  &__content {
   }
 }

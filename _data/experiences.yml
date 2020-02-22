@@ -16,7 +16,7 @@
     - Developed, implemented, and documented user facing features in and C++ and Typescript
     - Participated in the full development lifecycle scaled agile methodologies
 
-- company: Arts Media Center
+- company: UWW Arts Media Center
   url: https://www.uww.edu/
   location: Whitewater, WI
   time: Jan '16 - May '18
@@ -34,6 +34,15 @@
     - Worked on a team to design and implement complex scheduling and optimization algorithms in C++
     - Optimized, documented, and updated old code to adopt new design requirements from stakeholders
 
+- company: Independent
+  url: 
+  location:
+  time: June '15 - Present
+  position: iOS and OS X App Developer
+  description: 
+    - Produced and released multiple mobile apps with a combined total of over 15,000 downloads
+    - Developed mobile and desktop applications to visualize complex mathematical patterns and fractals
+
 # - company: Mobile Mesh Games
 #   url: 
 #   location: Whitewater, WI
@@ -42,12 +51,3 @@
 #   description: 
 #     - Developed, tested, and debugged C# code for mobile apps
 #     - Implemented art assets and UI control logic
-
-- company: 
-  url: 
-  location:
-  time: June '15 - Present
-  position: iOS and OS X App Developer
-  description: 
-    - Produced and released multiple mobile apps with a combined total of over 15,000 downloads
-    - Developed mobile and desktop applications to visualize complex mathematical patterns and fractals

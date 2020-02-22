@@ -1,3 +1,21 @@
 .skills {
-  height: 100vh;
+
+  &__titles {
+    width: 125px;
+    clear: left;
+    float: left;
+
+    &__title {
+      display: block;
+    }
+  }
+
+  &__lists {
+    &__list {
+      &__item {
+        display: inline-block;
+        padding: 0px 4px 0px 0px;
+      }
+    }
+  }
 }

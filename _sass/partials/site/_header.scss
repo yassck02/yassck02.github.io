@@ -11,6 +11,12 @@
   padding: 12px;
   font-size: 9pt;
 
+  background-color: $base-color;
+
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+
   &__logo {
     display: inline-block;
     width: 40;

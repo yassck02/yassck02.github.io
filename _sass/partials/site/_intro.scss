@@ -1,8 +1,10 @@
 .intro {
-  height: 100vh;
+
   &__title {
+    display: inline;
     margin: 8px 0 8px 0;
-    color: $font-primary_light;
+    background: $accent-color;
+    color: $base-color;
     font-size: 48pt;
   }
 }
