@@ -15,18 +15,17 @@
 body {
   color: $font-primary;
   font-family: Calibre, " Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
-  margin: 12px;
+  margin: 12pt;
 }
 
 .section {
   &__title {
     color: $font-primary;
-    // font-style: italic;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 16pt;
   }
   &__content {
-    margin: 10px 0px 10px 0px;
+    margin: 10pt 0pt 10pt 0pt;
   }
 }
 
@@ -36,7 +35,7 @@ a {
 }
 
 .hr {
-  border-top: 1.5px solid $accent-color;
+  border-top: 1.5pt solid $accent-color;
 }
 
 .courses {

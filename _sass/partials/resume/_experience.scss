@@ -1,6 +1,6 @@
 .experience {
   &__item {
-    padding: 0px 0px 10px 0px;
+    padding: 0pt 0pt 10pt 0pt;
     &__time, &__location {
       color: $font-secondary;
       float: right;
@@ -15,7 +15,7 @@
       font-weight: 600;
     }
     &__description {
-      padding-top: 4px;
+      padding-top: 4pt;
       width: 75vw;
 
       p {

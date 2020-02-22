@@ -1,11 +1,11 @@
 .footer {
   margin: 0;
-  padding: 12px;
+  padding: 12pt;
   width: 100%;
   text-align: center;
 
   &__link {
-    font-size: 12px;
+    font-size: 8pt;
     &:hover {
       text-decoration: underline;
       text-decoration-color: $accent-color;

@@ -4,8 +4,22 @@
     <meta charset="utf-8">
     <title>Connor Yass - Portfolio</title>
     <link rel="stylesheet" href="/assets/css/site.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131438410-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-131438410-1');
+    </script>
+
   </head>
   <body>
+    <div class="construction-notice">
+  🚧 🛠 Notice: This website is still under constrution! 🏗 🔩
+</div>
+
     <div class="header code">
 
   <div class="header__logo rotate">
@@ -206,8 +220,25 @@
   </div>
 
   <div class="section__content">
+
+    <!-- Tab links -->
+    <div class="tab-bar"></div>
     
-    <div class="experience__item">
+      <button class="tab-bar__button" onclick="openTab(event, 'NASA Langley Research Center')">NASA Langley Research Center</button>
+    
+      <button class="tab-bar__button" onclick="openTab(event, 'Rockwell Automation')">Rockwell Automation</button>
+    
+      <button class="tab-bar__button" onclick="openTab(event, 'UWW Arts Media Center')">UWW Arts Media Center</button>
+    
+      <button class="tab-bar__button" onclick="openTab(event, 'Interactive Degree Planner, LLC')">Interactive Degree Planner, LLC</button>
+    
+      <button class="tab-bar__button" onclick="openTab(event, 'Independent')">Independent</button>
+    
+    </div>
+
+    <!-- Tab content -->
+    
+    <div id="NASA Langley Research Center" class="tab-content">
       <div class="experience__item__time">Sept '19 - Present</div>
       <div class="experience__item__location">Hampton, VA</div>
       <div class="experience__item__position">AR / VR Software Developer</div>
@@ -221,7 +252,7 @@
       </div>
     </div>
     
-    <div class="experience__item">
+    <div id="Rockwell Automation" class="tab-content">
       <div class="experience__item__time">May '18 - Jan '19</div>
       <div class="experience__item__location">Milwaukee, WI</div>
       <div class="experience__item__position">Software Engineering Co-op</div>
@@ -235,7 +266,7 @@
       </div>
     </div>
     
-    <div class="experience__item">
+    <div id="UWW Arts Media Center" class="tab-content">
       <div class="experience__item__time">Jan '16 - May '18</div>
       <div class="experience__item__location">Whitewater, WI</div>
       <div class="experience__item__position">3D Printer and Laser Cutter Lab Technician</div>
@@ -249,7 +280,7 @@
       </div>
     </div>
     
-    <div class="experience__item">
+    <div id="Interactive Degree Planner, LLC" class="tab-content">
       <div class="experience__item__time">May '17 - May '18</div>
       <div class="experience__item__location">Whitewater, WI</div>
       <div class="experience__item__position">Programming Intern</div>
@@ -263,7 +294,7 @@
       </div>
     </div>
     
-    <div class="experience__item">
+    <div id="Independent" class="tab-content">
       <div class="experience__item__time">June '15 - Present</div>
       <div class="experience__item__location"></div>
       <div class="experience__item__position">iOS and OS X App Developer</div>
@@ -277,7 +308,6 @@
       </div>
     </div>
     
-  </div>
 
 </div>
 
@@ -395,12 +425,13 @@
   </div>
 
   <div class="section__content">
-    <p>I'm not currently open to a job change, but I am 
+    <p class="contact__prompt">I'm not currently open to a job change, but I am 
       always open to creating and collaborating on 
-      independent open source projects. Wanna share 
-      your ideas? Wanna hear some of mine?</p>
+      exciting independent open source projects.</p>
 
-    <a class="btn"
+      <p class="contact__prompt">Wanna share your ideas? Wanna hear some of mine?</p>
+
+    <a class="contact__button btn"
       href="mailto:yassck02@gmail.com" 
       target="_blank" 
       rel="nofollow noopener noreferrer">Say Hello</a>
@@ -454,5 +485,7 @@
     Designed & Built by Connor Yass
   </a>
 </div>
+
+    <script type="text/javascript" src="http://0.0.0.0:5000/assets/tabs.js"></script>"></script>
   </body>
 </html>

@@ -5,7 +5,6 @@
 @import "partials/shared";
 
 @import "partials/site/header";
-@import "partials/site/social-media-links";
 @import "partials/site/intro";
 @import "partials/site/about";
 @import "partials/site/skills";
@@ -13,6 +12,9 @@
 @import "partials/site/projects";
 @import "partials/site/contact";
 @import "partials/site/footer";
+
+@import "partials/site/social-media-links";
+@import "partials/site/construction-notice";
 
 html {
   scroll-behavior: smooth;
@@ -35,10 +37,10 @@ a {
 }
 
 .btn {
-  padding: 10px 12px 10px 12px;
+  padding: 10pt 12pt 10pt 12pt;
   color: $accent-color;
-  border: 1px solid $accent-color;
-  border-radius: 4px;
+  border: 1pt solid $accent-color;
+  border-radius: 4pt;
 
   &:hover {
     background: transparentize($color: $accent-color, $amount: 0.75);
@@ -52,14 +54,13 @@ ul {
 ul li::before {
   content: "\2022";
   color: $accent-color;
-  font-weight: bold;
   display: inline-block;
   width: 1em;
   margin-left: -1em;
 }
 
 .section {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,7 +80,7 @@ ul li::before {
   }
 
   &__content {
-    max-width: 750px;
+    max-width: 750pt;
     width: 75vw;
   }
 }
