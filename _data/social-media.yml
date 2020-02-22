@@ -1,12 +1,15 @@
 - name: "Instagram"
   url: "https://www.instagram.com/connor.yass"
   image: "instagram.svg"
+
 - name: "Twitter"
   url: "https://Twitter.com"
   image: "twitter.svg"
+
 - name: "Github"
   url: "https://Github.com/yassck02"
   image: "github.svg"
+
 - name: "LinkedIn"
   url: "https://www.linkedin.com/in/connor-yass/"
-  image: "Linkedin.svg"
+  image: "linkedin.svg"

@@ -1,7 +1,7 @@
 <div class="social-media-links">
   {% for media in site.data.social-media %}
     <a class="link" href="{{ media.url }}" target="_blank">
-      {% include {{media.image}} %}
+      {% include {{ media.image }} %}
     </a>
   {% endfor %}
 </div>
