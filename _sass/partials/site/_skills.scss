@@ -1,20 +1,36 @@
 .skills {
 
-  &__titles {
-    width: 125px;
-    clear: left;
-    float: left;
+  &__title {
+    display: block;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: $accent-color;
+  }
 
-    &__title {
-      display: block;
+  &__list {
+    padding-left: 0px;
+    list-style-position: inside;
+    list-style-type: square;
+    
+    &__item {
+      padding: 0px 4px 0px 0px;
     }
   }
 
-  &__lists {
-    &__list {
-      &__item {
-        display: inline-block;
-        padding: 0px 4px 0px 0px;
+  .grid {
+    margin: 0 auto;
+
+    .grid-row {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+
+      .grid-item {
+        flex-basis: 20%;
+        width: 750px;
+        position: relative;
+        padding: 10px;
+        box-sizing: border-box;
       }
     }
   }

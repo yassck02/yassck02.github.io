@@ -1,37 +1,39 @@
 Languages:
-  - item: Swift
-  - item: C++
-  - item: Python
-  - item: HTML
-  - item: CSS / SASS
-  - item: JavaScript
-  - item: TypeScript
+  - Swift
+  - C++
+  - Python
+  - HTML
+  - CSS / SASS
+  - JavaScript
+  - TypeScript
 
 Frameworks:
-  - item: Angular
-  - item: Cocoa / UIKit
-  - item: Metal
-  - item: Jekyll
-  - item: REST
-  - item: SpriteKit
-  - item: ARKit
+  - Angular
+  - UIKit
+  - Metal
+  - Jekyll
+  - REST
+  - SpriteKit
+  - ARKit
 
 Tools:
-  - item: GIT
-  - item: Scaled Agile (SAFe)
-  - item: Node.js
-  - item: Bash
-  - item: Wireshark
+  - GIT
+  - Agile
+  - Node.js
+  - Bash
+  - Wireshark
 
 Software:
-  - item: Xcode
-  - item: VS Code
-  - item: Adobe Photoshop / Illustrator
-  - item: Autodesk Maya / 3Ds Max
+  - Xcode
+  - VS Code
+  - Photoshop
+  - Illustrator
+  - Maya
+  - 3Ds Max
 
 Platforms:
-  - item: iOS
-  - item: MacOS
-  - item: Windows
-  - item: Linux
-  - item: Unix
+  - iOS
+  - MacOS
+  - Windows
+  - Linux
+  - Unix

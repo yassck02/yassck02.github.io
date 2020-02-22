@@ -55,6 +55,8 @@ a {
   &__header {
     font-size: 20pt;
     color: $font-primary_light;
+    padding: 32pt;
+
     * {
       display: inline;
     }
@@ -64,5 +66,6 @@ a {
   }
 
   &__content {
+    width: 50vw;
   }
 }
