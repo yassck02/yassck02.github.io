@@ -1,4 +1,4 @@
-Highlighted:
+featured:
 
   - name: Spirographer
     url: https://github.com/yassck02/spirographer
@@ -6,12 +6,12 @@ Highlighted:
       Developed an iOS application that utilizes
       Metal to plot and render spirograph designs
       in real time; Written in native Swift
-    used:
-      - item: Metal
-      - item: Swift
-      - item: MacOS
-      - item: iPadOS
-      - item: Xcode
+    technologies:
+      - Metal
+      - Swift
+      - MacOS
+      - iPadOS
+      - Xcode
 
   - name: P2P Messaging App
     url: 
@@ -20,12 +20,12 @@ Highlighted:
       to peer messaging app on the iOS platform; 
       Responded to bug reports, managed UX 
       design and more
-    used:
-      - item: iOS
-      - item: Blutooth
-      - item: Multipeer Connectivity
-      - item: Wireless
-      - item: Interface Builder
+    technologies:
+      - iOS
+      - Blutooth
+      - Multipeer Connectivity
+      - Wireless
+      - Interface Builder
 
   - name: Family-Feud
     url: https://github.com/yassck02/familyfeud
@@ -33,12 +33,12 @@ Highlighted:
       Implemented a command line version of the tv game show 
       that utilizes a text based UI and client server architecture; 
       Written in Python
-    used:
-      - item: Python
-      - item: Bash
-      - item: Text-Based UI
-      - item: Command Line
-      - item: Client-Server
+    technologies:
+      - Python
+      - Bash
+      - Text-Based UI
+      - Command Line
+      - Client-Server
 
   - name: 3D-Printable Study Tool
     url: 
@@ -46,14 +46,14 @@ Highlighted:
       Led a small cross-disciplinary team that designed
       and produced an 3D-printable model of the human
       larynx for use in a classroom setting
-    used:
-      - item: 3D Printing
-      - item: Undergraduate Research
-      - item: Multi-Material
-      - item: Study Tool
-      - item: Autodesk 3Ds Max
+    technologies:
+      - 3D Printing
+      - Undergraduate Research
+      - Multi-Material
+      - Study Tool
+      - Autodesk 3Ds Max
 
-Other:
+archived:
 
   - name: Leo
     url: https://github.com/yassck02/Leo
@@ -61,10 +61,10 @@ Other:
       A 3D model of a full-body, virtual reality, 
       force feedback exoskeleton
     imageURL: https://github.com/yassck02/Leo/blob/master/images/img00013.png?raw=true
-    used:
-      - item: 3D Printing
-      - item: Autodesk 3Ds Max
-      - item: Autodesk Maya
+    technologies:
+      - 3D Printing
+      - Autodesk 3Ds Max
+      - Autodesk Maya
 
   - name: Mandelbrot-Set
     url: https://github.com/yassck02/Mandelbrot-Set
@@ -72,11 +72,11 @@ Other:
       A Swift application that renders the Mandelbrot
       set using Metal GPU shaders
     imageURL: https://github.com/yassck02/Mandelbrot-Set/blob/master/images/img00003.png?raw=true
-    used:
-      - item: iOS
-      - item: Swift
-      - item: MetalKit
-      - item: GPU Shaders 
+    technologies:
+      - iOS
+      - Swift
+      - MetalKit
+      - GPU Shaders 
 
   - name: L-System-Viewer
     url: https://github.com/yassck02/L-System-Viewer
@@ -84,7 +84,7 @@ Other:
       A Swift application that generates and renders 
       complext fractals and patterns (Lyndenmeyer Systems)
     imageURL: https://github.com/yassck02/L-System-Viewer/blob/master/images/img00018.png?raw=true
-    used:
-      - item: Swift
-      - item: iOS
+    technologies:
+      - Swift
+      - iOS
 

@@ -66,6 +66,7 @@ a {
   }
 
   &__content {
-    width: 50vw;
+    max-width: 750px;
+    width: 75vw;
   }
 }
