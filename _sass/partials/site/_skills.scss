@@ -1,5 +1,4 @@
 .skills {
-
   &__title {
     display: block;
     font-weight: 600;
@@ -8,9 +7,7 @@
   }
 
   &__list {
-    padding-left: 0px;
-    list-style-position: inside;
-    list-style-type: square;
+    padding-left: 10px;
     
     &__item {
       padding: 0px 4px 0px 0px;

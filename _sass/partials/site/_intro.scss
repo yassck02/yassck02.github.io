@@ -2,10 +2,12 @@
 
   &__name {
     width: 50%;
+    font-size: 15pt;
   }
 
   &__statement {
     width: 50%;
+    color: $font-secondary_light;
   }
 
   &__title {

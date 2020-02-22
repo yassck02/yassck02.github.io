@@ -42,9 +42,9 @@ body { color: #3c3c3c; font-family: Calibre, " Francisco", "SF Pro Text", -apple
 
 .section__content { margin: 10px 0px 10px 0px; }
 
-a { color: #ffc118; text-decoration: none; }
+a { color: #afff64; text-decoration: none; }
 
-.hr { border-top: 1.5px solid #ffc118; }
+.hr { border-top: 1.5px solid #afff64; }
 
 .courses { width: 47%; float: left; clear: left; }
 

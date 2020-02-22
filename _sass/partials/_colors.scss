@@ -1,8 +1,9 @@
-$base-color: #131124;
-$accent-color: #ffc118; //#ca196c;
+$base-color: #121020;
+$accent-color: rgb(175, 255, 100); //#ca196c;
 
 $font-primary: rgb(60, 60, 60);
 $font-secondary: rgb(120, 120, 120);
 
-$font-primary_light: rgb(207, 207, 207);
-$font-secondary_light: rgb(170, 170, 170);
+$font-primary_light: rgba(255, 255, 255, 0.9);
+$font-secondary_light: rgba(255, 255, 255, 0.5);
+$font-tertiary_light: rgba(255, 255, 255, 0.3);
