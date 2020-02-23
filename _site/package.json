@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/yassck02/portfolioV2#readme",
   "dependencies": {
-    "bootstrap": "^4.4.1"
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1"
   }
 }
