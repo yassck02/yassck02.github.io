@@ -8,38 +8,30 @@
 }
 
 .header {
-  padding: 12pt;
-  font-size: 9pt;
-
-  background-color: $base-color;
-
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+  font-size: 10pt;
+  background-color: black;
 
   &__logo {
-    display: inline-block;
-    width: 40;
-    height: 40;
     path {
       fill: $accent-color;
     }
   }
 
-  &__links {
-    float: right;
-    * {
-      display: inline-block;
+  &__link {
+    padding-right: 15pt;
+    color: $accent-color;
+
+    .active {
+      background-color: cyan;
     }
-    &__link {
-      padding-right: 15pt;
-      &__index {
+
+    &__index {
+      color: $accent-color;
+    }
+
+    &__label {
+      &:hover {
         color: $accent-color;
-      }
-      &__label {
-        &:hover {
-          color: $accent-color;
-        }
       }
     }
   }

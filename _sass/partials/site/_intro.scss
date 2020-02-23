@@ -1,12 +1,12 @@
 .intro {
-
   &__name {
-    width: 50%;
     font-size: 15pt;
+    p {
+      margin: 4pt 0 4pt 0;
+    }
   }
 
   &__statement {
-    width: 50%;
     color: $font-secondary_light;
   }
 
@@ -16,23 +16,5 @@
     background: $accent-color;
     color: $base-color;
     font-size: 48pt;
-  }
-
-  .grid {
-    margin: 0 auto;
-
-    .grid-row {
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: center;
-
-      .grid-item {
-        flex-basis: 50%;
-        width: 750pt;
-        position: relative;
-        padding: 10pt;
-        box-sizing: border-box;
-      }
-    }
   }
 }

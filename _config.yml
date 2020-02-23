@@ -1,9 +1,10 @@
 # deployment
 host: 0.0.0.0 #localhost
 port: 5001
+
 sass:
   load_paths:
     - _sass
     - node_modules
-  style: compressed
-exclude: []
+    
+include: [ node_modules ]

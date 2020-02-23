@@ -1,18 +1,28 @@
-<div class="header code">
+<nav id="header" class="header navbar navbar-expand-lg sticky-top">
+  <div class="container-fluid">
 
-  <div class="header__logo rotate">
-    {% include logo.svg %}
-  </div>
-
-  <nav class="header__links">
-    {% for item in site.data.navigation %}
-    <div class="header__links__link">
-      <p class="header__links__link__index">0{{ item.index }}.</p>
-      <a class="header__links__link__label" href="#{{ item.label }}">{{ item.label }}</a>
+    <div class="navbar-header">
+      <div class="header__logo rotate">
+        {% include logo.svg %}
+      </div>
     </div>
-    {% endfor %}
 
-    <a class="btn" href="/assets/files/resume.pdf">Resume</a>
-  </nav>
+    <div class="collapse navbar-collapse" id="cy-navbar">
+      <ul class="nav navbar ml-auto">
+        {% for item in site.data.navigation %}
+        <li class="nav-item header__link code">
+          0{{ item.index }}.
+          <a class="header__link__label" href="#{{ item.label }}">{{ item.label }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
 
-</div>
+    <a class="btn btn-outline-primary navbar-toggle ml-auto" data-toggle="collapse" data-target="#cy-navbar">
+      <img src="/assets/images/three-dots.svg" alt="" width="24" height="24" title="Bootstrap">
+    </a>
+
+    <a class="btn btn-outline-primary" href="/assets/files/resume.pdf">Resume</a>
+
+  </div>
+</nav>

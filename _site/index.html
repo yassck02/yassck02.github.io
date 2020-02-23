@@ -17,78 +17,83 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#header" data-offset="0">
   <div class="construction-notice">
   🚧 🛠 Notice: This website is still under constrution! 🏗 🔩
 </div>
   <div>
-  <div class="header code">
+  <nav id="header" class="header navbar navbar-expand-lg sticky-top">
+  <div class="container-fluid">
 
-  <div class="header__logo rotate">
-    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 1024 1024">
+    <div class="navbar-header">
+      <div class="header__logo rotate">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 100 100">
   <metadata id="metadata8">image/svg+xml</metadata>
   <title>Personal-Logo</title>
-  <path fill-rule="nonzero" d="m965.817871,963.872986c-54.510864,55.885071 -144.732056,57.252319 -200.832703,2.964172c-39.333191,-38.064087 -51.921936,-93.078003 -37.768188,-141.993591c10.56897,-36.526917 1.035217,-75.899353 -25.852661,-102.78717l-100.722168,-100.722229c-26.08374,-26.083557 -64.100342,-36.270081 -99.730286,-26.722778l-137.338531,36.799988c-36.433044,9.761719 -65.097412,38.438477 -73.795135,75.140564c-5.805542,24.502136 -18.184967,47.762817 -37.138138,66.973755c-55.204803,55.953064 -146.262138,56.30896 -201.882339,0.768005c-55.65223,-55.571655 -55.676957,-145.737061 -0.074257,-201.339844c55.467712,-55.467651 144.481514,-55.856323 200.407951,-0.851624c1.184753,1.165955 2.344604,2.346558 3.479706,3.541382c25.980606,27.362244 64.926224,38.180786 101.371567,28.414917l137.620117,-36.874268c35.629883,-9.547241 63.460083,-37.377441 73.007385,-73.007324l36.875305,-137.622192c9.765747,-36.445374 -1.052734,-75.390991 -28.414856,-101.370621c-1.195923,-1.13504 -2.376465,-2.296021 -3.542419,-3.480698c-55.003723,-55.927444 -54.615112,-144.940269 0.852539,-200.406879c55.602661,-55.60278 145.76825,-55.577974 201.340027,0.074203c55.540833,55.620274 55.185059,146.677601 -0.768127,201.882313c-19.210938,18.953201 -42.47168,31.332626 -66.973816,37.13829c-36.701111,8.697662 -65.377686,37.361969 -75.140503,73.794983l-36.800049,137.339844c-9.547241,35.629639 0.639282,73.646362 26.722839,99.730042l100.722229,100.722168c26.549683,26.549622 65.540527,37.003113 101.508667,26.229004c48.520752,-14.535278 103.267578,-2.640442 141.594727,35.686646c55.151062,55.151123 55.574951,144.305054 1.271118,199.978943" id="svg_1"/>
+  <path stroke="null" id="svg_1" d="m83.130096,82.759117c-4.476715,4.589645 -11.886154,4.701927 -16.493431,0.243439c-3.230247,-3.12606 -4.264122,-7.64415 -3.101734,-11.661415c0.867992,-2.999809 0.085014,-6.23333 -2.123146,-8.44154l-8.271839,-8.271954c-2.142128,-2.142147 -5.264259,-2.978729 -8.190376,-2.194641l-11.278965,3.022243c-2.992073,0.801701 -5.346142,3.156815 -6.060444,6.171024c-0.476784,2.012272 -1.493446,3.922592 -3.04998,5.500328c-4.53371,4.595215 -12.011818,4.624443 -16.579641,0.063065c-4.570455,-4.563908 -4.572486,-11.968864 -0.006099,-16.535309c4.555301,-4.555367 11.865582,-4.587288 16.458558,-0.069954c0.097298,0.095764 0.192551,0.192719 0.28577,0.290844c2.133663,2.247162 5.332081,3.135651 8.325165,2.333614l11.302082,-3.028347c2.926121,-0.784081 5.211685,-3.069672 5.995762,-5.995827l3.028397,-11.30241c0.802013,-2.99312 -0.08646,-6.19158 -2.33358,-8.325197c-0.098217,-0.093216 -0.195171,-0.18856 -0.290924,-0.285854c-4.517197,-4.593117 -4.485275,-11.903418 0.070015,-16.458688c4.566383,-4.566455 11.971252,-4.564418 16.535107,0.006094c4.56131,4.567889 4.532089,12.046098 -0.063072,16.57986c-1.577713,1.556555 -3.48801,2.573235 -5.500252,3.050032c-3.014095,0.714308 -5.369167,3.068403 -6.170937,6.060505l-3.022209,11.279224c-0.784077,2.926132 0.052505,6.048309 2.194611,8.190468l8.271839,8.271938c2.180416,2.180428 5.382549,3.038952 8.336437,2.154099c3.984787,-1.193733 8.480873,-0.21685 11.628502,2.930828c4.529297,4.52935 4.56411,11.851242 0.104385,16.423531" fill-rule="nonzero"/>
 </svg>
-  </div>
-
-  <nav class="header__links">
-    
-    <div class="header__links__link">
-      <p class="header__links__link__index">00.</p>
-      <a class="header__links__link__label" href="#About">About</a>
-    </div>
-    
-    <div class="header__links__link">
-      <p class="header__links__link__index">01.</p>
-      <a class="header__links__link__label" href="#Skills">Skills</a>
-    </div>
-    
-    <div class="header__links__link">
-      <p class="header__links__link__index">02.</p>
-      <a class="header__links__link__label" href="#Experience">Experience</a>
-    </div>
-    
-    <div class="header__links__link">
-      <p class="header__links__link__index">03.</p>
-      <a class="header__links__link__label" href="#Projects">Projects</a>
-    </div>
-    
-    <div class="header__links__link">
-      <p class="header__links__link__index">04.</p>
-      <a class="header__links__link__label" href="#Contact">Contact</a>
-    </div>
-    
-
-    <a class="btn" href="/assets/files/resume.pdf">Resume</a>
-  </nav>
-
-</div>
-
-  
-<div class="section intro fade-in">
-  <div class="section__content center">
-
-    <div class="grid">
-      <div class="grid-row">
-
-        <div class="grid-item intro__name">
-          <p class="code">Hello World! My name is</p>
-          <h1 class="intro__title">Connor Yass.</h1>
-          <p class="code">I program computers.</p>
-        </div>
-
-        <div class="grid-item intro__statement">
-          <p>I am a Software Engineer based out of Milwaukee, WI specializing in mobile app developement. My passions include computer science, space exploration, and hiking.</p>
-        </div>
-
       </div>
     </div>
 
+    <div class="collapse navbar-collapse" id="cy-navbar">
+      <ul class="nav navbar ml-auto">
+        
+        <li class="nav-item header__link code">
+          00.
+          <a class="header__link__label" href="#About">About</a>
+        </li>
+        
+        <li class="nav-item header__link code">
+          01.
+          <a class="header__link__label" href="#Skills">Skills</a>
+        </li>
+        
+        <li class="nav-item header__link code">
+          02.
+          <a class="header__link__label" href="#Experience">Experience</a>
+        </li>
+        
+        <li class="nav-item header__link code">
+          03.
+          <a class="header__link__label" href="#Projects">Projects</a>
+        </li>
+        
+        <li class="nav-item header__link code">
+          04.
+          <a class="header__link__label" href="#Contact">Contact</a>
+        </li>
+        
+      </ul>
+    </div>
+
+    <a class="btn btn-outline-primary navbar-toggle ml-auto" data-toggle="collapse" data-target="#cy-navbar">
+      <img src="/assets/images/three-dots.svg" alt="" width="24" height="24" title="Bootstrap">
+    </a>
+
+    <a class="btn btn-outline-primary" href="/assets/files/resume.pdf">Resume</a>
+
+  </div>
+</nav>
+
+  
+
+<div class="container">
+  <div class="row">
+
+    <div class="col">
+      <div class="intro__name">
+        <p class="code">Hello World! My name is</p>
+        <h1 class="intro__title">Connor Yass.</h1>
+        <p class="code">I program computers.</p>
+      </div>
+    </div>
+
+    <div class="col">
+      <p>I am a Software Engineer based out of Milwaukee, WI specializing in mobile app developement. My passions include computer science, space exploration, artificial intelligence, and hiking.</p>
+    </div>
   </div>
 </div>
-  <a name="About"></a>
-<div class="section about fade-in">
+  <div id="About" class="section about fade-in">
 
   <div class="section__header">
     <p class="section__header__index code">00.</p>
@@ -411,7 +416,7 @@
 
       <p class="contact__prompt">Wanna share your ideas? Wanna hear some of mine?</p>
 
-    <a class="contact__button btn"
+    <a class="btn btn-outline-primary"
       href="mailto:yassck02@gmail.com" 
       target="_blank" 
       rel="nofollow noopener noreferrer">Say Hello</a>
@@ -461,12 +466,14 @@
 </div>
 
 
+  <footer>
   
-<div class="footer">
-  <a href="https://github.com/yassck02/yassck02.github.io" class="footer__link code">
-    Designed & Built by Connor Yass
-  </a>
-</div>
+  <div class="footer">
+    <a href="https://github.com/yassck02/yassck02.github.io" class="footer__link code">
+      Designed & Built by Connor Yass
+    </a>
+  </div>
+</footer>
 </div>
   
   <script src="/node_modules/jquery/dist/jquery.min.js"></script>

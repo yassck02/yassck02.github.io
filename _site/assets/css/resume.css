@@ -1,3 +1,53 @@
-.header{text-align:center}.header__name{font-weight:600;font-size:24pt;font-variant:small-caps;color:rgba(0,0,0,0.9);margin:10pt 0pt 10pt 0pt}.header__info{margin:10pt 0pt 10pt 0pt}.header__info *{display:inline-block;margin:0pt 8pt 0pt 8pt}.education__item__date{color:rgba(0,0,0,0.5);float:right;clear:right}.skills__titles{width:125pt;clear:left;float:left}.skills__titles__title{display:block}.skills__lists__list__item{display:inline-block;padding:0pt 4pt 0pt 0pt}.experience__item{padding:0pt 0pt 10pt 0pt}.experience__item__time,.experience__item__location{color:rgba(0,0,0,0.5);float:right;clear:right}.experience__item__company{display:inline-block;font-style:italic}.experience__item__position{display:inline-block;font-weight:600}.experience__item__description{padding-top:4pt;width:75vw}.experience__item__description p{margin:0}.projects__item{width:50%;float:right;padding:00pt 0pt 10pt 0pt}.projects__item__name{font-weight:600}.projects__item__description{padding-top:4pt;padding-right:12pt}.awards__item__date{color:rgba(0,0,0,0.5);float:right;clear:right}.hidden{display:none}body{color:rgba(0,0,0,0.9);font-family:Calibre, " Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;margin:12pt}.section__title{color:rgba(0,0,0,0.9);font-weight:500;font-size:16pt}.section__content{margin:10pt 0pt 10pt 0pt}a{color:#afff64;text-decoration:none}.hr{border-top:1.5pt solid #afff64}.courses{width:47%;float:left;clear:left}.awards{width:50%;float:right;clear:right}
+.header { text-align: center; }
+
+.header__name { font-weight: 600; font-size: 24pt; font-variant: small-caps; color: rgba(0, 0, 0, 0.9); margin: 10pt 0pt 10pt 0pt; }
+
+.header__info { margin: 10pt 0pt 10pt 0pt; }
+
+.header__info * { display: inline-block; margin: 0pt 8pt 0pt 8pt; }
+
+.education__item__date { color: rgba(0, 0, 0, 0.5); float: right; clear: right; }
+
+.skills__titles { width: 125pt; clear: left; float: left; }
+
+.skills__titles__title { display: block; }
+
+.skills__lists__list__item { display: inline-block; padding: 0pt 4pt 0pt 0pt; }
+
+.experience__item { padding: 0pt 0pt 10pt 0pt; }
+
+.experience__item__time, .experience__item__location { color: rgba(0, 0, 0, 0.5); float: right; clear: right; }
+
+.experience__item__company { display: inline-block; font-style: italic; }
+
+.experience__item__position { display: inline-block; font-weight: 600; }
+
+.experience__item__description { padding-top: 4pt; width: 75vw; }
+
+.experience__item__description p { margin: 0; }
+
+.projects__item { width: 50%; float: right; padding: 00pt 0pt 10pt 0pt; }
+
+.projects__item__name { font-weight: 600; }
+
+.projects__item__description { padding-top: 4pt; padding-right: 12pt; }
+
+.awards__item__date { color: rgba(0, 0, 0, 0.5); float: right; clear: right; }
+
+.hidden { display: none; }
+
+body { color: rgba(0, 0, 0, 0.9); font-family: Calibre, " Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif; margin: 12pt; }
+
+.section__title { color: rgba(0, 0, 0, 0.9); font-weight: 500; font-size: 16pt; }
+
+.section__content { margin: 10pt 0pt 10pt 0pt; }
+
+a { color: #afff64; text-decoration: none; }
+
+.hr { border-top: 1.5pt solid #afff64; }
+
+.courses { width: 47%; float: left; clear: left; }
+
+.awards { width: 50%; float: right; clear: right; }
 
 /*# sourceMappingURL=resume.css.map */
