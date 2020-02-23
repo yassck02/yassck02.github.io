@@ -18,11 +18,15 @@
 </head>
 
 <body data-spy="scroll" data-target="#header" data-offset="0">
-  <div class="construction-notice">
-  🚧 🛠 Notice: This website is still under constrution! 🏗 🔩
+  <div class="alert alert-danger alert-dismissible fade show" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+  <p class="alert-heading"><strong>Notice:</strong> This site is a work in progress</p>
 </div>
+
   <div>
-  <nav id="header" class="header navbar navbar-expand-lg sticky-top">
+  <nav id="header" class="header navbar navbar-expand-md sticky-top">
   <div class="container-fluid">
 
     <div class="navbar-header">
@@ -36,29 +40,29 @@
     </div>
 
     <div class="collapse navbar-collapse" id="cy-navbar">
-      <ul class="nav navbar ml-auto">
+      <ul class="nav navbar-nav ml-auto">
         
-        <li class="nav-item header__link code">
+        <li class="nav-item header__link code active">
           00.
           <a class="header__link__label" href="#About">About</a>
         </li>
         
-        <li class="nav-item header__link code">
+        <li class="nav-item header__link code active">
           01.
           <a class="header__link__label" href="#Skills">Skills</a>
         </li>
         
-        <li class="nav-item header__link code">
+        <li class="nav-item header__link code active">
           02.
           <a class="header__link__label" href="#Experience">Experience</a>
         </li>
         
-        <li class="nav-item header__link code">
+        <li class="nav-item header__link code active">
           03.
           <a class="header__link__label" href="#Projects">Projects</a>
         </li>
         
-        <li class="nav-item header__link code">
+        <li class="nav-item header__link code active">
           04.
           <a class="header__link__label" href="#Contact">Contact</a>
         </li>
@@ -66,8 +70,10 @@
       </ul>
     </div>
 
-    <a class="btn btn-outline-primary navbar-toggle ml-auto" data-toggle="collapse" data-target="#cy-navbar">
-      <img src="/assets/images/three-dots.svg" alt="" width="24" height="24" title="Bootstrap">
+    <a class="btn navbar-toggler ml-auto" 
+       data-toggle="collapse" 
+       data-target="#cy-navbar">
+      ...
     </a>
 
     <a class="btn btn-outline-primary" href="/assets/files/resume.pdf">Resume</a>
@@ -77,23 +83,26 @@
 
   
 
-<div class="container">
-  <div class="row">
+<div class="section intro">
+  <div class="container">
+    <div class="row">
 
-    <div class="col">
-      <div class="intro__name">
-        <p class="code">Hello World! My name is</p>
-        <h1 class="intro__title">Connor Yass.</h1>
-        <p class="code">I program computers.</p>
+      <div class="col-md">
+        <div class="intro__name">
+          <p class="code">Hello World! My name is</p>
+          <h1 class="intro__title">Connor Yass.</h1>
+          <p class="code">I program computers.</p>
+        </div>
       </div>
-    </div>
 
-    <div class="col">
-      <p>I am a Software Engineer based out of Milwaukee, WI specializing in mobile app developement. My passions include computer science, space exploration, artificial intelligence, and hiking.</p>
+      <div class="col-md">
+        <p>I am a Software Engineer based out of Milwaukee, WI specializing in mobile app developement. My passions include computer science, space exploration, artificial intelligence, and hiking.</p>
+      </div>
+
     </div>
   </div>
 </div>
-  <div id="About" class="section about fade-in">
+  <div id="About" class="section about">
 
   <div class="section__header">
     <p class="section__header__index code">00.</p>
@@ -101,8 +110,7 @@
   </div>
 
   <div class="section__content">
-    <p>Graduating from the University of Wisconsin, Whitewater with a B.S in Computer Science and Applied Mathematics
-    </p>
+    <p>Graduating from the University of Wisconsin, Whitewater with a B.S in Computer Science and Applied Mathematics</p>
   </div>
 </div>
   <div id="Skills" class="section skills fade-in">
@@ -112,13 +120,12 @@
     <h3>Technologies I've used</h3>
   </div>
 
-  <div class="grid section__content">
-
-    <div class="grid-row">
+  <div class="container">
+    <div class="row">
 
       
-      <div class="grid-item">
-        <div class="skills__title">Languages</div>
+      <div class="col">
+        <p class="skills__title">Languages</p>
         <ul class="skills__list">
           
           <li class="skills__list__item">Swift</li>
@@ -127,19 +134,17 @@
           
           <li class="skills__list__item">Python</li>
           
-          <li class="skills__list__item">HTML</li>
-          
-          <li class="skills__list__item">CSS / SASS</li>
+          <li class="skills__list__item">HTML / (S)CSS</li>
           
           <li class="skills__list__item">JavaScript</li>
           
           <li class="skills__list__item">TypeScript</li>
           
-          </duliv>
+        </ul>
       </div>
       
-      <div class="grid-item">
-        <div class="skills__title">Frameworks</div>
+      <div class="col">
+        <p class="skills__title">Frameworks</p>
         <ul class="skills__list">
           
           <li class="skills__list__item">Angular</li>
@@ -156,11 +161,11 @@
           
           <li class="skills__list__item">ARKit</li>
           
-          </duliv>
+        </ul>
       </div>
       
-      <div class="grid-item">
-        <div class="skills__title">Tools</div>
+      <div class="col">
+        <p class="skills__title">Tools</p>
         <ul class="skills__list">
           
           <li class="skills__list__item">Git</li>
@@ -173,11 +178,11 @@
           
           <li class="skills__list__item">Wireshark</li>
           
-          </duliv>
+        </ul>
       </div>
       
-      <div class="grid-item">
-        <div class="skills__title">Software</div>
+      <div class="col">
+        <p class="skills__title">Software</p>
         <ul class="skills__list">
           
           <li class="skills__list__item">Xcode</li>
@@ -192,11 +197,11 @@
           
           <li class="skills__list__item">3Ds Max</li>
           
-          </duliv>
+        </ul>
       </div>
       
-      <div class="grid-item">
-        <div class="skills__title">Platforms</div>
+      <div class="col">
+        <p class="skills__title">Platforms</p>
         <ul class="skills__list">
           
           <li class="skills__list__item">iOS</li>
@@ -209,15 +214,15 @@
           
           <li class="skills__list__item">Unix</li>
           
-          </duliv>
+        </ul>
       </div>
       
 
     </div>
   </div>
-</div>
 
-  <div id="Experience" class="section experience fade-in">
+</div>
+  <div id="Experience" class="section experience">
 
   <div class="section__header">
     <p class="section__header__index code">02.</p>
@@ -226,92 +231,139 @@
 
   <div class="section__content">
 
-    
-    <div id="NASA Langley Research Center" class="tab-content">
-      <div class="item__time code">Sept '19 - Present</div>
-      <div class="item__location code">Hampton, VA</div>
-      <div class="item__position">AR / VR Software Developer</div>
-      <div class="item__company">@ NASA Langley Research Center</div>
-      <ul class="item__description">
-        
-        <li>Designed and implemented an augmented reality application to track unmanned aerial vehicles</li>
-        
-        <li>Prototyped multiple different use cases for AR in the aerospace industry on the iOS platform</li>
-        
-        </duliv>
+    <div class="row">
+      <div class="col-2">
+        <div class="list-group" id="list-tab" role="tablist">
+
+          
+          <a class="list-group-item list-group-item-action" 
+             data-toggle="list" 
+             href="#NASA Langley Research Center" 
+             role="tab" 
+             aria-controls="NASA Langley Research Center">NASA</a>
+          
+          <a class="list-group-item list-group-item-action" 
+             data-toggle="list" 
+             href="#Rockwell Automation" 
+             role="tab" 
+             aria-controls="Rockwell Automation">Rockwell</a>
+          
+          <a class="list-group-item list-group-item-action" 
+             data-toggle="list" 
+             href="#UWW Arts Media Center" 
+             role="tab" 
+             aria-controls="UWW Arts Media Center">UWW AMC</a>
+          
+          <a class="list-group-item list-group-item-action" 
+             data-toggle="list" 
+             href="#Interactive Degree Planner, LLC" 
+             role="tab" 
+             aria-controls="Interactive Degree Planner, LLC">IDP</a>
+          
+          <a class="list-group-item list-group-item-action" 
+             data-toggle="list" 
+             href="#Independent" 
+             role="tab" 
+             aria-controls="Independent">Independent</a>
+          
+
+        </div>
+      </div>
+      <div class="col-8">
+        <div class="tab-content" id="nav-tabContent">
+
+          
+          <div id="NASA Langley Research Center" class="tab-pane fade" role="tabpanel">
+            <div class="item__time code">Sept '19 - Present</div>
+            <div class="item__location code">Hampton, VA</div>
+            <div class="item__position">AR / VR Software Developer</div>
+            <div class="item__company">@ NASA Langley Research Center</div>
+            <ul class="item__description">
+              
+              <li>Designed and implemented an augmented reality application to track unmanned aerial vehicles</li>
+              
+              <li>Prototyped multiple different use cases for AR in the aerospace industry on the iOS platform</li>
+              
+              </duliv>
+          </div>
+          
+          <div id="Rockwell Automation" class="tab-pane fade" role="tabpanel">
+            <div class="item__time code">May '18 - Jan '19</div>
+            <div class="item__location code">Milwaukee, WI</div>
+            <div class="item__position">Software Engineering Co-op</div>
+            <div class="item__company">@ Rockwell Automation</div>
+            <ul class="item__description">
+              
+              <li>Developed, implemented, and documented user facing features in and C++ and Typescript</li>
+              
+              <li>Participated in the full development lifecycle scaled agile methodologies</li>
+              
+              </duliv>
+          </div>
+          
+          <div id="UWW Arts Media Center" class="tab-pane fade" role="tabpanel">
+            <div class="item__time code">Jan '16 - May '18</div>
+            <div class="item__location code">Whitewater, WI</div>
+            <div class="item__position">3D Printer and Laser Cutter Lab Technician</div>
+            <div class="item__company">@ UWW Arts Media Center</div>
+            <ul class="item__description">
+              
+              <li>Taught students and professors how to use the equipment</li>
+              
+              <li>Cleaned, maintained, and operated the machinery</li>
+              
+              </duliv>
+          </div>
+          
+          <div id="Interactive Degree Planner, LLC" class="tab-pane fade" role="tabpanel">
+            <div class="item__time code">May '17 - May '18</div>
+            <div class="item__location code">Whitewater, WI</div>
+            <div class="item__position">Programming Intern</div>
+            <div class="item__company">@ Interactive Degree Planner, LLC</div>
+            <ul class="item__description">
+              
+              <li>Worked on a team to design and implement complex scheduling and optimization algorithms in C++</li>
+              
+              <li>Optimized, documented, and updated old code to adopt new design requirements from stakeholders</li>
+              
+              </duliv>
+          </div>
+          
+          <div id="Independent" class="tab-pane fade" role="tabpanel">
+            <div class="item__time code">June '15 - Present</div>
+            <div class="item__location code"></div>
+            <div class="item__position">iOS and OS X App Developer</div>
+            <div class="item__company">@ Independent</div>
+            <ul class="item__description">
+              
+              <li>Produced and released multiple mobile apps with a combined total of over 15,000 downloads</li>
+              
+              <li>Developed mobile and desktop applications to visualize complex mathematical patterns and fractals</li>
+              
+              </duliv>
+          </div>
+          
+
+        </div>
+      </div>
     </div>
-    
-    <div id="Rockwell Automation" class="tab-content">
-      <div class="item__time code">May '18 - Jan '19</div>
-      <div class="item__location code">Milwaukee, WI</div>
-      <div class="item__position">Software Engineering Co-op</div>
-      <div class="item__company">@ Rockwell Automation</div>
-      <ul class="item__description">
-        
-        <li>Developed, implemented, and documented user facing features in and C++ and Typescript</li>
-        
-        <li>Participated in the full development lifecycle scaled agile methodologies</li>
-        
-        </duliv>
-    </div>
-    
-    <div id="UWW Arts Media Center" class="tab-content">
-      <div class="item__time code">Jan '16 - May '18</div>
-      <div class="item__location code">Whitewater, WI</div>
-      <div class="item__position">3D Printer and Laser Cutter Lab Technician</div>
-      <div class="item__company">@ UWW Arts Media Center</div>
-      <ul class="item__description">
-        
-        <li>Taught students and professors how to use the equipment</li>
-        
-        <li>Cleaned, maintained, and operated the machinery</li>
-        
-        </duliv>
-    </div>
-    
-    <div id="Interactive Degree Planner, LLC" class="tab-content">
-      <div class="item__time code">May '17 - May '18</div>
-      <div class="item__location code">Whitewater, WI</div>
-      <div class="item__position">Programming Intern</div>
-      <div class="item__company">@ Interactive Degree Planner, LLC</div>
-      <ul class="item__description">
-        
-        <li>Worked on a team to design and implement complex scheduling and optimization algorithms in C++</li>
-        
-        <li>Optimized, documented, and updated old code to adopt new design requirements from stakeholders</li>
-        
-        </duliv>
-    </div>
-    
-    <div id="Independent" class="tab-content">
-      <div class="item__time code">June '15 - Present</div>
-      <div class="item__location code"></div>
-      <div class="item__position">iOS and OS X App Developer</div>
-      <div class="item__company">@ Independent</div>
-      <ul class="item__description">
-        
-        <li>Produced and released multiple mobile apps with a combined total of over 15,000 downloads</li>
-        
-        <li>Developed mobile and desktop applications to visualize complex mathematical patterns and fractals</li>
-        
-        </duliv>
-    </div>
-    
+
+
   </div>
 
 </div>
-  <div id="Projects" class="section projects fade-in">
+  <div id="Projects" class="section projects">
 
   <div class="section__header">
     <p class="section__header__index code">03.</p>
-    <h3>Some Things I've built</h3>
+    <h3>Things I've built</h3>
   </div>
 
-  <div class="grid section__content">
-    <div class="grid-row">
+  <div class="section__content container">
+    <div class="row">
       
 
-      <div class="project grid-item">
+      <div class="col-md shadow p-3 mb-5 rounded">
         <a class="project__title" href="https://github.com/yassck02/spirographer">Spirographer</a>
         <p class="project__description">Developed an iOS application that utilizes Metal to plot and render spirograph designs in real time; Written in native Swift
 </p>
@@ -333,7 +385,7 @@
 
       
 
-      <div class="project grid-item">
+      <div class="col-md shadow p-3 mb-5 rounded">
         <a class="project__title" href="">P2P Messaging App</a>
         <p class="project__description">Designed, developed and released a peer  to peer messaging app on the iOS platform;  Responded to bug reports, managed UX  design and more
 </p>
@@ -355,7 +407,7 @@
 
       
 
-      <div class="project grid-item">
+      <div class="col-md shadow p-3 mb-5 rounded">
         <a class="project__title" href="https://github.com/yassck02/familyfeud">Family-Feud</a>
         <p class="project__description">Implemented a command line version of the tv game show  that utilizes a text based UI and client server architecture;  Written in Python
 </p>
@@ -377,7 +429,7 @@
 
       
 
-      <div class="project grid-item">
+      <div class="col-md shadow p-3 mb-5 rounded">
         <a class="project__title" href="">3D-Printable Study Tool</a>
         <p class="project__description">Led a small cross-disciplinary team that designed and produced an 3D-printable model of the human larynx for use in a classroom setting
 </p>
@@ -402,7 +454,7 @@
   </div>
 
 </div>
-  <div id="Contact" class="section contact fade-in">
+  <div id="Contact" class="section contact">
 
   <div class="section__header">
     <p class="section__header__index code">04.</p>
@@ -410,31 +462,17 @@
   </div>
 
   <div class="section__content">
-    <p class="contact__prompt">I'm not currently open to a job change, but I am 
-      always open to creating and collaborating on 
-      exciting independent open source projects.</p>
 
-      <p class="contact__prompt">Wanna share your ideas? Wanna hear some of mine?</p>
-
-    <a class="btn btn-outline-primary"
-      href="mailto:yassck02@gmail.com" 
-      target="_blank" 
-      rel="nofollow noopener noreferrer">Say Hello</a>
-  </div>
-  
-</div>
-
-
-  <div class="social-media-links">
+    <div class="media-links">
   
     <a class="link" href="https://www.instagram.com/connor.yass" target="_blank">
       <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 100 100">
  <metadata id="metadata8">image/svg+xml</metadata>
  <title>Instagram</title>
  <g>
-  <path stroke="null" id="svg_1" d="m67.828125,2.250001l-35.906248,0c-16.522858,0 -29.921876,13.399019 -29.921876,29.921874l0,35.90625c0,16.522858 13.399018,29.921875 29.921876,29.921875l35.906248,0c16.522858,0 29.921875,-13.399017 29.921875,-29.921875l0,-35.90625c0,-16.522855 -13.399017,-29.921874 -29.921875,-29.921874zm20.94532,65.828124c0,11.54985 -9.39547,20.94532 -20.94532,20.94532l-35.906248,0c-11.549852,0 -20.945313,-9.39547 -20.945313,-20.94532l0,-35.90625c0,-11.549849 9.395461,-20.945311 20.945313,-20.945311l35.906248,0c11.54985,0 20.94532,9.395462 20.94532,20.945311l0,35.90625z" fill="white"/>
-  <path stroke="null" id="svg_2" d="m52.249996,31.75c-10.216621,0 -18.5,8.283379 -18.5,18.5s8.283379,18.5 18.5,18.5s18.500004,-8.283371 18.500004,-18.5s-8.283375,-18.5 -18.500004,-18.5zm0,30.0625c-6.373245,0 -11.5625,-5.189255 -11.5625,-11.5625c0,-6.377869 5.189255,-11.5625 11.5625,-11.5625s11.5625,5.184631 11.5625,11.5625c0,6.373245 -5.189255,11.5625 -11.5625,11.5625z" fill="white"/>
-  <circle stroke="null" id="svg_3" r="5.056002" cy="26.400001" cx="72.850017" fill="white"/>
+  <path stroke="null" d="m67.828125,2.250001l-35.906248,0c-16.522858,0 -29.921876,13.399019 -29.921876,29.921874l0,35.90625c0,16.522858 13.399018,29.921875 29.921876,29.921875l35.906248,0c16.522858,0 29.921875,-13.399017 29.921875,-29.921875l0,-35.90625c0,-16.522855 -13.399017,-29.921874 -29.921875,-29.921874zm20.94532,65.828124c0,11.54985 -9.39547,20.94532 -20.94532,20.94532l-35.906248,0c-11.549852,0 -20.945313,-9.39547 -20.945313,-20.94532l0,-35.90625c0,-11.549849 9.395461,-20.945311 20.945313,-20.945311l35.906248,0c11.54985,0 20.94532,9.395462 20.94532,20.945311l0,35.90625z" fill="white"/>
+  <path stroke="null" d="m52.249996,31.75c-10.216621,0 -18.5,8.283379 -18.5,18.5s8.283379,18.5 18.5,18.5s18.500004,-8.283371 18.500004,-18.5s-8.283375,-18.5 -18.500004,-18.5zm0,30.0625c-6.373245,0 -11.5625,-5.189255 -11.5625,-11.5625c0,-6.377869 5.189255,-11.5625 11.5625,-11.5625s11.5625,5.184631 11.5625,11.5625c0,6.373245 -5.189255,11.5625 -11.5625,11.5625z" fill="white"/>
+  <circle stroke="null" r="5.056002" cy="26.400001" cx="72.850017" fill="white"/>
  </g>
 </svg>
     </a>
@@ -466,11 +504,27 @@
 </div>
 
 
+    <div class="contact__prompt">
+      <p>I'm not currently open to a job change, 
+      but I am always open to creating and collaborating on 
+      independent open source projects. </p>
+      <p>Wanna share your ideas? Wanna hear some of mine?</p>
+    </div>
+
+    <a class="btn btn-outline-primary"
+      href="mailto:yassck02@gmail.com" 
+      target="_blank" 
+      rel="nofollow noopener noreferrer">Say Hello</a>
+  </div>
+
+</div>
+
+
   <footer>
   
   <div class="footer">
     <a href="https://github.com/yassck02/yassck02.github.io" class="footer__link code">
-      Designed & Built by Connor Yass
+      Built by Connor Yass
     </a>
   </div>
 </footer>

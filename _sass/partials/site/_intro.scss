@@ -1,20 +1,24 @@
 .intro {
+  min-height: 80vh;
+  
+  .col-md {
+    padding-top: 20pt;
+  }
+
   &__name {
     font-size: 15pt;
+    color: $font-primary_light;
     p {
       margin: 4pt 0 4pt 0;
     }
   }
 
-  &__statement {
-    color: $font-secondary_light;
-  }
-
   &__title {
     display: inline;
     margin: 8pt 0 8pt 0;
-    background: $accent-color;
+    background: $primary;
     color: $base-color;
     font-size: 48pt;
+    font-weight: 700;
   }
 }

@@ -1,15 +1,15 @@
-<div id="Projects" class="section projects fade-in">
+<div id="Projects" class="section projects">
 
   <div class="section__header">
     <p class="section__header__index code">03.</p>
-    <h3>Some Things I've built</h3>
+    <h3>Things I've built</h3>
   </div>
 
-  <div class="grid section__content">
-    <div class="grid-row">
+  <div class="section__content container">
+    <div class="row">
       {% for project in site.data.projects.featured %}
 
-      <div class="project grid-item">
+      <div class="col-md shadow p-3 mb-5 rounded">
         <a class="project__title" href="{{project.url}}">{{ project.name }}</a>
         <p class="project__description">{{ project.description }}</p>
 

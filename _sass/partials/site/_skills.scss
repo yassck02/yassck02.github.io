@@ -1,34 +1,15 @@
 .skills {
+  min-height: 100vh;
+  
   &__title {
     display: block;
     font-weight: 600;
     text-decoration: underline;
-    text-decoration-color: $accent-color;
+    text-decoration-color: $primary;
+    color: $font-primary_light;
   }
 
-  &__list {
-    padding-left: 10pt;
-    
-    &__item {
-      padding: 0pt 4pt 0pt 0pt;
-    }
-  }
-
-  .grid {
-    margin: 0 auto;
-
-    .grid-row {
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: center;
-
-      .grid-item {
-        flex-basis: 20%;
-        width: 750pt;
-        position: relative;
-        padding: 10pt;
-        box-sizing: border-box;
-      }
-    }
+  ul {
+    padding-left: 0;
   }
 }

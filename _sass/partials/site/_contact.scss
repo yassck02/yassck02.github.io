@@ -1,9 +1,10 @@
 .contact {
+  min-height: 100vh;
   text-align: center;
 
   &__prompt {
-    padding-bottom: 10pt;
-    max-width: 400pt;
+    margin: 20pt;
+    max-width: 350pt;
   }
 
   &__button {

@@ -9,29 +9,25 @@
 
 .header {
   font-size: 10pt;
-  background-color: black;
+  background-color: $base-color;
 
   &__logo {
     path {
-      fill: $accent-color;
+      fill: $primary;
     }
   }
 
   &__link {
     padding-right: 15pt;
-    color: $accent-color;
-
-    .active {
-      background-color: cyan;
-    }
+    color: $primary;
 
     &__index {
-      color: $accent-color;
+      color: $primary;
     }
 
     &__label {
       &:hover {
-        color: $accent-color;
+        color: $primary;
       }
     }
   }

@@ -1,31 +1,12 @@
 .projects {
+  min-height: 100vh;
 
   .project {
     &__title {
       font-weight: 600;
       &:hover {
-        text-decoration-color: $accent-color;
+        text-decoration-color: $primary;
         text-decoration: underline;
-      }
-    }
-  }
-
-  .grid {
-    margin: 0 auto;
-
-    .grid-row {
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: center;
-
-      .grid-item {
-        flex-basis: 50%;
-        width: 750pt;
-        position: relative;
-        padding: 10pt;
-        box-sizing: border-box;
-        border: solid 1pt $accent-color;
-        border-radius: 4pt;
       }
     }
   }

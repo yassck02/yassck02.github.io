@@ -1,9 +1,11 @@
 ---
 ---
 
+@import "partials/colors";
+$primary: $accent-color !default;
+
 @import "node_modules/bootstrap/scss/bootstrap";
 
-@import "partials/colors";
 @import "partials/shared";
 
 @import "partials/site/header";
@@ -15,8 +17,8 @@
 @import "partials/site/contact";
 @import "partials/site/footer";
 
-@import "partials/site/social-media-links";
-@import "partials/site/construction-notice";
+@import "partials/site/media-links";
+@import "partials/site/wip-notice";
 
 html {
   scroll-behavior: smooth;
@@ -25,7 +27,7 @@ html {
 body {
   background: $base-color;
   font-family: "Helvetica", Times, serif;
-  color: $font-primary_light;
+  color: $font-secondary_light;
   position: relative;
 }
 
@@ -41,15 +43,16 @@ ul {
 }
 
 .section {
-  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: row wrap;
   flex-direction: column;
+  display: flex;
+  align-items: center;
 
   &__header {
-    font-size: 20pt;
+    font-size: 18pt;
     color: $font-primary_light;
     padding: 32pt;
 
@@ -57,7 +60,11 @@ ul {
       display: inline;
     }
     &__index {
-      color: $accent-color
+      color: $primary
+    }
+    h3 {
+      font-size: 18pt;
+      font-weight: 800;
     }
   }
 

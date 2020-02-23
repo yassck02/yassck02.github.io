@@ -1,18 +1,21 @@
 {% assign info = site.data.info %}
 
-<div class="container">
-  <div class="row">
+<div class="section intro">
+  <div class="container">
+    <div class="row">
 
-    <div class="col">
-      <div class="intro__name">
-        <p class="code">Hello World! My name is</p>
-        <h1 class="intro__title">{{ info.name }}.</h1>
-        <p class="code">I program computers.</p>
+      <div class="col-md">
+        <div class="intro__name">
+          <p class="code">Hello World! My name is</p>
+          <h1 class="intro__title">{{ info.name }}.</h1>
+          <p class="code">I program computers.</p>
+        </div>
       </div>
-    </div>
 
-    <div class="col">
-      <p>{{ info.statement }}</p>
+      <div class="col-md">
+        <p>{{ info.statement }}</p>
+      </div>
+
     </div>
   </div>
 </div>

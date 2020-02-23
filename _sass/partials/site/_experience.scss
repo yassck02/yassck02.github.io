@@ -1,4 +1,6 @@
 .experience {
+  min-height: 100vh;
+  
   .item {
     &__time {
       color: $font-secondary_light;
@@ -10,7 +12,7 @@
       font-weight: 600;
     }
     &__company {
-      color: $accent-color;
+      color: $primary;
       font-weight: 600;
     }
   }

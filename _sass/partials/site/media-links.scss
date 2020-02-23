@@ -1,0 +1,20 @@
+.media-links {
+
+  .link {
+    padding: 4pt;
+
+    svg {
+      width: 20pt;
+      height: 20pt;
+    }
+    circle, path {
+      fill: transparentize($color: white, $amount: 0.5);
+    }
+    
+    &:hover {
+      circle, path {
+        fill: $primary;
+      }
+    }
+  }
+} 
