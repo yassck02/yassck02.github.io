@@ -1,42 +1,19 @@
 .experience {
   height: 100vh;
 
-
-  .tab-bar {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-    &__button {
-      background-color: inherit;
-      float: left;
-      border: none;
-      outline: none;
-      cursor: pointer;
-      padding: 14px 16px;
-      transition: 0.3s;
-
-      &:hover {
-        background-color: #ddd;
-      }
-
-      &.active {
-        background-color: #ddd;
-      }
+  .item {
+    &__time {
+      color: $font-secondary_light;
     }
-  }
-
-  /* Style the tab content */
-  .tab-content {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
-    animation: fadeEffect 1s; /* Fading effect takes 1 second */
-  }
-  
-  /* Go from zero to full opacity */
-  @keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
+    &__location {
+      color: $font-secondary_light
+    }
+    &__position {
+      font-weight: 600;
+    }
+    &__company {
+      color: $accent-color;
+      font-weight: 600;
+    }
   }
 }

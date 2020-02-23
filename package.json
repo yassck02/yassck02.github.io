@@ -1,0 +1,22 @@
+{
+  "name": "portfoliov2",
+  "version": "0.1.0",
+  "description": "My portfolio website and resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yassck02/portfolioV2.git"
+  },
+  "author": "Connor Yass",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yassck02/portfolioV2/issues"
+  },
+  "homepage": "https://github.com/yassck02/portfolioV2#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}

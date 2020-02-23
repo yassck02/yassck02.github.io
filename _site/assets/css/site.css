@@ -49,20 +49,15 @@ a { text-decoration: none; }
 
 .skills .grid .grid-row .grid-item { flex-basis: 20%; width: 750pt; position: relative; padding: 10pt; box-sizing: border-box; }
 
-.experience { height: 100vh; /* Style the tab content */ /* Go from zero to full opacity */ }
+.experience { height: 100vh; }
 
-.experience .tab-bar { overflow: hidden; border: 1px solid #ccc; background-color: #f1f1f1; }
+.experience .item__time { color: rgba(255, 255, 255, 0.5); }
 
-.experience .tab-bar__button { background-color: inherit; float: left; border: none; outline: none; cursor: pointer; padding: 14px 16px; transition: 0.3s; }
+.experience .item__location { color: rgba(255, 255, 255, 0.5); }
 
-.experience .tab-bar__button:hover { background-color: #ddd; }
+.experience .item__position { font-weight: 600; }
 
-.experience .tab-bar__button.active { background-color: #ddd; }
-
-.experience .tab-content { display: none; padding: 6px 12px; border: 1px solid #ccc; border-top: none; animation: fadeEffect 1s; /* Fading effect takes 1 second */ }
-
-@keyframes fadeEffect { from { opacity: 0; }
-  to { opacity: 1; } }
+.experience .item__company { color: #afff64; font-weight: 600; }
 
 .projects .project__title { font-weight: 600; }
 

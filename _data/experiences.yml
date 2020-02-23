@@ -1,4 +1,5 @@
 - company: NASA Langley Research Center
+  company-short: NASA
   url: https://www.NASA.gov/
   location: Hampton, VA
   time: Sept '19 - Present
@@ -6,8 +7,9 @@
   description: 
     - Designed and implemented an augmented reality application to track unmanned aerial vehicles
     - Prototyped multiple different use cases for AR in the aerospace industry on the iOS platform
-
+  
 - company: Rockwell Automation
+  company-short: Rockwell
   url: https://www.rockwellautomation.gov/
   location: Milwaukee, WI
   time: May '18 - Jan '19
@@ -17,6 +19,7 @@
     - Participated in the full development lifecycle scaled agile methodologies
 
 - company: UWW Arts Media Center
+  company-short: UWW AMC
   url: https://www.uww.edu/
   location: Whitewater, WI
   time: Jan '16 - May '18
@@ -26,6 +29,7 @@
     - Cleaned, maintained, and operated the machinery
 
 - company: Interactive Degree Planner, LLC
+  company-short: IDP
   url: https://www.uww.edu/
   location: Whitewater, WI
   time: May '17 - May '18
@@ -35,6 +39,7 @@
     - Optimized, documented, and updated old code to adopt new design requirements from stakeholders
 
 - company: Independent
+  company-short: Independent
   url: 
   location:
   time: June '15 - Present

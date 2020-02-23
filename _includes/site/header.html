@@ -5,14 +5,14 @@
   </div>
 
   <nav class="header__links">
-  {% for item in site.data.navigation %}
+    {% for item in site.data.navigation %}
     <div class="header__links__link">
       <p class="header__links__link__index">0{{ item.index }}.</p>
       <a class="header__links__link__label" href="#{{ item.label }}">{{ item.label }}</a>
     </div>
-  {% endfor %}
+    {% endfor %}
 
-  <a class="btn" href="/assets/files/resume.pdf">Resume</a>
+    <a class="btn" href="/assets/files/resume.pdf">Resume</a>
   </nav>
 
 </div>

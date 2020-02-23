@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Page Not Found</title>
+  <title>{{ page.title }}</title>
   <link rel="stylesheet" href="/assets/css/site.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -18,11 +18,8 @@
 </head>
 
 <body>
-  <div class="construction-notice">
-  🚧 🛠 Notice: This website is still under constrution! 🏗 🔩
-</div>
-  <p>Error: 404 - This is not the page you are looking for</p>
-<a href="http://0.0.0.0:5001">Home Page</a>
+  {% include site/construction-notice.html %}
+  {{ content }}
 </body>
 
 </html>
