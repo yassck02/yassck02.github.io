@@ -7,7 +7,7 @@
 
   &__name {
     font-size: 15pt;
-    color: $gray-500;
+    color: $white;
     p {
       margin: 4pt 0 4pt 0;
     }
@@ -17,7 +17,7 @@
     display: inline;
     margin: 8pt 0 8pt 0;
     background: $primary;
-    color: $gray-500;
+    color: $body-color;
     font-size: 48pt;
     font-weight: 700;
   }

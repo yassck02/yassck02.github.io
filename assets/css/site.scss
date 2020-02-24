@@ -24,15 +24,20 @@ html {
 
 body {
   font-family: "Helvetica", Times, serif;
-  background-color: $body-color;
+  background-color: darken($body-color, 30%);
   color: $gray-500;
   position: relative;
+}
+
+.main {
+  background-color: $body-color;
 }
 
 a {
   color: $white;
   &:hover {
     text-decoration: none;
+    color: $white;
   }
 }
 

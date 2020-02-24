@@ -20,14 +20,15 @@
   </head>
 
   <body data-spy="scroll" data-target="#header" data-offset="0">
-    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+    <div class="main">
+      <div class="alert alert-danger alert-dismissible fade show" role="alert">
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button>
   <p class="alert-heading"><strong>Notice:</strong> This site is a work in progress</p>
 </div>
 
-    <div>
+      <div>
   <nav id="header" class="header navbar navbar-expand-md sticky-top">
   <div class="container-fluid">
 
@@ -78,7 +79,15 @@
       ...
     </a>
 
-    <a class="btn btn-outline-primary" href="/assets/files/resume.pdf">Resume</a>
+    <div class="dropdown">
+      <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Resume
+      </button>
+      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="/resume/html">HTML</a>
+        <a class="dropdown-item" href="/assets/files/resume.pdf">PDF</a>
+      </div>
+    </div>
 
   </div>
 </nav>
@@ -364,6 +373,7 @@
   <div class="section__content container">
     <div class="row">
       
+      
 
       <div class="col-md">
         <a class="project__title" href="https://github.com/yassck02/spirographer">Spirographer</a>
@@ -530,7 +540,8 @@
     </a>
   </div>
 </footer>
-</div>  
+</div> 
+    </div> 
   </body>
 
 </html>
