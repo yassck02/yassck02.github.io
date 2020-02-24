@@ -1,0 +1,24 @@
+.intro {
+  min-height: 80vh;
+  
+  .col-md {
+    padding-top: 20pt;
+  }
+
+  &__name {
+    font-size: 15pt;
+    color: $gray-500;
+    p {
+      margin: 4pt 0 4pt 0;
+    }
+  }
+
+  &__title {
+    display: inline;
+    margin: 8pt 0 8pt 0;
+    background: $primary;
+    color: $gray-500;
+    font-size: 48pt;
+    font-weight: 700;
+  }
+}

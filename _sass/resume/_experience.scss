@@ -1,0 +1,26 @@
+.experience {
+  &__item {
+    padding: 0pt 0pt 10pt 0pt;
+    &__time, &__location {
+      color: $gray-500;
+      float: right;
+      clear: right;
+    }
+    &__company {
+      display: inline-block;
+      font-style: italic;
+    }
+    &__position {
+      display: inline-block;
+      font-weight: 600;
+    }
+    &__description {
+      padding-top: 4pt;
+      width: 75vw;
+
+      p {
+        margin: 0;
+      }
+    }
+  }
+}

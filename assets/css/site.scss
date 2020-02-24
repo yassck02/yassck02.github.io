@@ -1,38 +1,36 @@
 ---
 ---
 
-@import "partials/colors";
-$primary: $accent-color !default;
+@import "variables";
+@import "bootstrap/bootstrap";
+@import "customization";
 
-@import "node_modules/bootstrap/scss/bootstrap";
+@import "shared";
 
-@import "partials/shared";
-
-@import "partials/site/header";
-@import "partials/site/intro";
-@import "partials/site/about";
-@import "partials/site/skills";
-@import "partials/site/experience";
-@import "partials/site/projects";
-@import "partials/site/contact";
-@import "partials/site/footer";
-
-@import "partials/site/media-links";
-@import "partials/site/wip-notice";
+@import "site/header";
+@import "site/intro";
+@import "site/about";
+@import "site/skills";
+@import "site/experience";
+@import "site/projects";
+@import "site/contact";
+@import "site/footer";
+@import "site/media-links";
+@import "site/wip-notice";
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background: $base-color;
   font-family: "Helvetica", Times, serif;
-  color: $font-secondary_light;
+  background-color: $body-color;
+  color: $gray-500;
   position: relative;
 }
 
 a {
-  color: $font-primary_light;
+  color: $white;
   &:hover {
     text-decoration: none;
   }
@@ -53,7 +51,7 @@ ul {
 
   &__header {
     font-size: 18pt;
-    color: $font-primary_light;
+    color: $white;
     padding: 32pt;
 
     * {

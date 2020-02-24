@@ -1,0 +1,9 @@
+.awards {
+  &__item {
+    &__date {
+      color: $gray-700;
+      float: right;
+      clear: right;
+    }
+  }
+}

@@ -1,26 +1,26 @@
 ---
 ---
 
-@import "partials/colors";
+@import "variables";
 
-@import "partials/resume/header";
-@import "partials/resume/education";
-@import "partials/resume/skills";
-@import "partials/resume/experience";
-@import "partials/resume/projects";
-@import "partials/resume/courses";
-@import "partials/resume/awards";
-@import "partials/resume/keywords";
+@import "resume/header";
+@import "resume/education";
+@import "resume/skills";
+@import "resume/experience";
+@import "resume/projects";
+@import "resume/courses";
+@import "resume/awards";
+@import "resume/keywords";
 
 body {
-  color: $font-primary;
+  color: $gray-700;
   font-family: Calibre, " Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
   margin: 12pt;
 }
 
 .section {
   &__title {
-    color: $font-primary;
+    color: $gray-700;
     font-weight: 500;
     font-size: 16pt;
   }
@@ -30,12 +30,12 @@ body {
 }
 
 a {
-  color: $accent-color;
+  color: $primary;
   text-decoration: none;
 }
 
 .hr {
-  border-top: 1.5pt solid $accent-color;
+  border-top: 1.5pt solid $primary;
 }
 
 .courses {

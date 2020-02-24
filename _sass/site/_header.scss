@@ -1,0 +1,34 @@
+.rotate {
+  animation: rotation 12s infinite linear;
+}
+
+@keyframes rotation {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(359deg); }
+}
+
+.header {
+  font-size: 10pt;
+  background-color: $body-color;
+
+  &__logo {
+    path {
+      fill: $primary;
+    }
+  }
+
+  &__link {
+    padding-right: 15pt;
+    color: $primary;
+
+    &__index {
+      color: $primary;
+    }
+
+    &__label {
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+}

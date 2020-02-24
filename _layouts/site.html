@@ -1,29 +1,27 @@
 <!doctype html>
 <html>
 
-<head>
-  <meta charset="utf-8">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/assets/css/site.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/site.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="{{ "/assets/javascript/bootstrap/jquery.min.js" | relative_url }}"></script>
+    <script src="{{ "/assets/javascript/bootstrap/bootstrap.bundle.min.js" | relative_url }}"></script>
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131438410-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'UA-131438410-1');
-  </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131438410-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'UA-131438410-1');
+    </script>
+  </head>
 
-</head>
-
-<body data-spy="scroll" data-target="#header" data-offset="0">
-  {% include site/wip-notice.html %}
-  {{ content }}
-  
-  <script src="{{'/node_modules/jquery/dist/jquery.min.js' | prepend: site.baseurl}}"></script>
-  <script src="{{'/node_modules/popper.js/dist/umd/popper.min.js' | prepend: site.baseurl}}"></script>
-	<script src="{{'/node_modules/bootstrap/dist/js/bootstrap.min.js' | prepend: site.baseurl}}"></script>
-</body>
+  <body data-spy="scroll" data-target="#header" data-offset="0">
+    {% include site/wip-notice.html %}
+    {{ content }}  
+  </body>
 
 </html>

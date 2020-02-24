@@ -1,0 +1,15 @@
+.skills {
+  min-height: 100vh;
+  
+  &__title {
+    display: block;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: $primary;
+    color: $gray-500;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+}

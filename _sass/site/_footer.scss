@@ -1,0 +1,15 @@
+.footer {
+  margin: 0;
+  padding: 12pt;
+  width: 100%;
+  text-align: center;
+  background-color: darken($body-color, 30%);;
+
+  &__link {
+    font-size: 8pt;
+    &:hover {
+      text-decoration: underline;
+      text-decoration-color: $primary;
+    }
+  }
+}

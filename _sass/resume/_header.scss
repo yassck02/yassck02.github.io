@@ -1,0 +1,19 @@
+.header {
+
+  text-align: center;
+
+  &__name {
+    font-weight: 600;
+    font-size: 24pt;
+    font-variant: small-caps;
+    color: $gray-700;
+    margin: 10pt 0pt 10pt 0pt;
+  }
+  &__info {
+    margin: 10pt 0pt 10pt 0pt;
+    * {
+      display: inline-block;
+      margin: 0pt 8pt 0pt 8pt;
+    }
+  }
+}

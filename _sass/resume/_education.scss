@@ -1,0 +1,9 @@
+.education {
+  &__item {
+    &__date {
+      color: $gray-500;
+      float: right;
+      clear: right;
+    }
+  }
+}
