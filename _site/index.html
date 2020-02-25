@@ -113,22 +113,29 @@
     </div>
   </div>
 </div>
-  <div id="About" class="section about">
+  <div id="About" class="about section">
 
   <div class="section__header">
-    <p class="section__header__index code">00.</p>
-    <h3>About Me</h3>
+    <div class="row">
+      <h3 class="section__header__index code">00.</h3>
+      <h3>About Me</h3>
+    </div>
+    <hr>
   </div>
 
   <div class="section__content">
     <p>Graduating from the University of Wisconsin, Whitewater with a B.S in Computer Science and Applied Mathematics</p>
   </div>
 </div>
+
   <div id="Skills" class="section skills fade-in">
 
   <div class="section__header">
-    <p class="section__header__index code">01.</p>
-    <h3>Technologies I've used</h3>
+    <div class="row">
+      <h3 class="section__header__index code">01.</h3>
+      <h3>Technologies I've Used</h3>
+    </div>
+    <hr>
   </div>
 
   <div class="container">
@@ -236,138 +243,164 @@
   <div id="Experience" class="section experience">
 
   <div class="section__header">
-    <p class="section__header__index code">02.</p>
-    <h3>Places I've Worked</h3>
+    <div class="row">
+      <h3 class="section__header__index code">02.</h3>
+      <h3>Places I've Worked</h3>
+    </div>
+    <hr>
   </div>
 
-  <div class="section__content">
+  <div class="container row section__content">
 
-    <div class="row">
-      <div class="col-2">
-        <div class="list-group" id="list-tab" role="tablist">
+    <!-- Tabs -->
+    <div class="col-4">
+      <ul class="nav nav-pills flex-column" role="tablist">
+        
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#Company1">NASA</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#Company2">Rockwell</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#Company3">UWW AMC</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#Company4">IDP</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#Company5">Independent</a>
+        </li>
+        
+      </ul>
+    </div>
 
-          
-          <a class="list-group-item list-group-item-action" 
-             data-toggle="list" 
-             href="#NASA Langley Research Center" 
-             role="tab" 
-             aria-controls="NASA Langley Research Center">NASA</a>
-          
-          <a class="list-group-item list-group-item-action" 
-             data-toggle="list" 
-             href="#Rockwell Automation" 
-             role="tab" 
-             aria-controls="Rockwell Automation">Rockwell</a>
-          
-          <a class="list-group-item list-group-item-action" 
-             data-toggle="list" 
-             href="#UWW Arts Media Center" 
-             role="tab" 
-             aria-controls="UWW Arts Media Center">UWW AMC</a>
-          
-          <a class="list-group-item list-group-item-action" 
-             data-toggle="list" 
-             href="#Interactive Degree Planner, LLC" 
-             role="tab" 
-             aria-controls="Interactive Degree Planner, LLC">IDP</a>
-          
-          <a class="list-group-item list-group-item-action" 
-             data-toggle="list" 
-             href="#Independent" 
-             role="tab" 
-             aria-controls="Independent">Independent</a>
-          
+    <!-- tab content -->
+    <div class="col-8">
+      <div class="tab-content">
+        
+        <div id="Company1" class="item tab-pane container fade">
 
-        </div>
-      </div>
-      <div class="col-8">
-        <div class="tab-content" id="nav-tabContent">
+          <div class="row">
+            <h6 class="item__position">AR / VR Software Developer</h6>
+            <h6 class="item__company">@ NASA Langley Research Center</h6>
+          </div>
 
-          
-          <div id="NASA Langley Research Center" class="tab-pane fade" role="tabpanel">
+          <div class="row">
             <div class="item__time code">Sept '19 - Present</div>
-            <div class="item__location code">Hampton, VA</div>
-            <div class="item__position">AR / VR Software Developer</div>
-            <div class="item__company">@ NASA Langley Research Center</div>
-            <ul class="item__description">
-              
-              <li>Designed and implemented an augmented reality application to track unmanned aerial vehicles</li>
-              
-              <li>Prototyped multiple different use cases for AR in the aerospace industry on the iOS platform</li>
-              
-              </duliv>
+            <!-- <div class="item__location code">Hampton, VA</div> -->
           </div>
-          
-          <div id="Rockwell Automation" class="tab-pane fade" role="tabpanel">
-            <div class="item__time code">May '18 - Jan '19</div>
-            <div class="item__location code">Milwaukee, WI</div>
-            <div class="item__position">Software Engineering Co-op</div>
-            <div class="item__company">@ Rockwell Automation</div>
-            <ul class="item__description">
-              
-              <li>Developed, implemented, and documented user facing features in and C++ and Typescript</li>
-              
-              <li>Participated in the full development lifecycle scaled agile methodologies</li>
-              
-              </duliv>
-          </div>
-          
-          <div id="UWW Arts Media Center" class="tab-pane fade" role="tabpanel">
-            <div class="item__time code">Jan '16 - May '18</div>
-            <div class="item__location code">Whitewater, WI</div>
-            <div class="item__position">3D Printer and Laser Cutter Lab Technician</div>
-            <div class="item__company">@ UWW Arts Media Center</div>
-            <ul class="item__description">
-              
-              <li>Taught students and professors how to use the equipment</li>
-              
-              <li>Cleaned, maintained, and operated the machinery</li>
-              
-              </duliv>
-          </div>
-          
-          <div id="Interactive Degree Planner, LLC" class="tab-pane fade" role="tabpanel">
-            <div class="item__time code">May '17 - May '18</div>
-            <div class="item__location code">Whitewater, WI</div>
-            <div class="item__position">Programming Intern</div>
-            <div class="item__company">@ Interactive Degree Planner, LLC</div>
-            <ul class="item__description">
-              
-              <li>Worked on a team to design and implement complex scheduling and optimization algorithms in C++</li>
-              
-              <li>Optimized, documented, and updated old code to adopt new design requirements from stakeholders</li>
-              
-              </duliv>
-          </div>
-          
-          <div id="Independent" class="tab-pane fade" role="tabpanel">
-            <div class="item__time code">June '15 - Present</div>
-            <div class="item__location code"></div>
-            <div class="item__position">iOS and OS X App Developer</div>
-            <div class="item__company">@ Independent</div>
-            <ul class="item__description">
-              
-              <li>Produced and released multiple mobile apps with a combined total of over 15,000 downloads</li>
-              
-              <li>Developed mobile and desktop applications to visualize complex mathematical patterns and fractals</li>
-              
-              </duliv>
-          </div>
-          
 
+          <ul class="item__description">
+            
+            <li>Designed and implemented an augmented reality application to track unmanned aerial vehicles</li>
+            
+            <li>Prototyped multiple different use cases for AR in the aerospace industry on the iOS platform</li>
+            
+          </ul>
         </div>
+        
+        <div id="Company2" class="item tab-pane container fade">
+
+          <div class="row">
+            <h6 class="item__position">Software Engineering Co-op</h6>
+            <h6 class="item__company">@ Rockwell Automation</h6>
+          </div>
+
+          <div class="row">
+            <div class="item__time code">May '18 - Jan '19</div>
+            <!-- <div class="item__location code">Milwaukee, WI</div> -->
+          </div>
+
+          <ul class="item__description">
+            
+            <li>Developed, implemented, and documented user facing features in and C++ and Typescript</li>
+            
+            <li>Participated in the full development lifecycle scaled agile methodologies</li>
+            
+          </ul>
+        </div>
+        
+        <div id="Company3" class="item tab-pane container fade">
+
+          <div class="row">
+            <h6 class="item__position">3D Printer and Laser Cutter Lab Technician</h6>
+            <h6 class="item__company">@ UWW Arts Media Center</h6>
+          </div>
+
+          <div class="row">
+            <div class="item__time code">Jan '16 - May '18</div>
+            <!-- <div class="item__location code">Whitewater, WI</div> -->
+          </div>
+
+          <ul class="item__description">
+            
+            <li>Taught students and professors how to use the equipment</li>
+            
+            <li>Cleaned, maintained, and operated the machinery</li>
+            
+          </ul>
+        </div>
+        
+        <div id="Company4" class="item tab-pane container fade">
+
+          <div class="row">
+            <h6 class="item__position">Programming Intern</h6>
+            <h6 class="item__company">@ Interactive Degree Planner, LLC</h6>
+          </div>
+
+          <div class="row">
+            <div class="item__time code">May '17 - May '18</div>
+            <!-- <div class="item__location code">Whitewater, WI</div> -->
+          </div>
+
+          <ul class="item__description">
+            
+            <li>Worked on a team to design and implement complex scheduling and optimization algorithms in C++</li>
+            
+            <li>Optimized, documented, and updated old code to adopt new design requirements from stakeholders</li>
+            
+          </ul>
+        </div>
+        
+        <div id="Company5" class="item tab-pane container fade">
+
+          <div class="row">
+            <h6 class="item__position">iOS and OS X App Developer</h6>
+            <h6 class="item__company">@ Independent</h6>
+          </div>
+
+          <div class="row">
+            <div class="item__time code">June '15 - Present</div>
+            <!-- <div class="item__location code"></div> -->
+          </div>
+
+          <ul class="item__description">
+            
+            <li>Produced and released multiple mobile apps with a combined total of over 15,000 downloads</li>
+            
+            <li>Developed mobile and desktop applications to visualize complex mathematical patterns and fractals</li>
+            
+          </ul>
+        </div>
+        
       </div>
     </div>
 
-
   </div>
-
 </div>
   <div id="Projects" class="section projects">
 
   <div class="section__header">
-    <p class="section__header__index code">03.</p>
-    <h3>Things I've built</h3>
+    <div class="row">
+      <h3 class="section__header__index code">03.</h3>
+      <h3>Things I've Built</h3>
+    </div>
+    <hr>
   </div>
 
   <div class="section__content container">
@@ -469,8 +502,11 @@
   <div id="Contact" class="section contact">
 
   <div class="section__header">
-    <p class="section__header__index code">04.</p>
-    <h3>Get in Touch</h3>
+    <div class="row">
+      <h3 class="section__header__index code">04.</h3>
+      <h3>Get in Touch</h3>
+    </div>
+    <hr>
   </div>
 
   <div class="section__content">
@@ -519,7 +555,7 @@
     <div class="contact__prompt">
       <p>I'm not currently open to a job change, 
       but I am always open to creating and collaborating on 
-      independent open source projects. </p>
+      independent projects. </p>
       <p>Wanna share your ideas? Wanna hear some of mine?</p>
     </div>
 

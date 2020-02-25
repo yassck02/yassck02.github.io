@@ -51,22 +51,15 @@ ul {
   justify-content: center;
   flex-flow: row wrap;
   flex-direction: column;
-  display: flex;
-  align-items: center;
 
   &__header {
-    font-size: 18pt;
     color: $white;
     padding: 32pt;
-
-    * {
-      display: inline;
-    }
+    
     &__index {
       color: $primary
     }
     h3 {
-      font-size: 18pt;
       font-weight: 800;
     }
   }

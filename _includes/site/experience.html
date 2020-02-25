@@ -1,48 +1,51 @@
 <div id="Experience" class="section experience">
 
   <div class="section__header">
-    <p class="section__header__index code">02.</p>
-    <h3>Places I've Worked</h3>
+    <div class="row">
+      <h3 class="section__header__index code">02.</h3>
+      <h3>Places I've Worked</h3>
+    </div>
+    <hr>
   </div>
 
-  <div class="section__content">
+  <div class="container row section__content">
 
-    <div class="row">
-      <div class="col-2">
-        <div class="list-group" id="list-tab" role="tablist">
+    <!-- Tabs -->
+    <div class="col-4">
+      <ul class="nav nav-pills flex-column" role="tablist">
+        {% for experience in site.data.experiences %}
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#Company{{forloop.index}}">{{ experience.company-short }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
 
-          {% for experience in site.data.experiences %}
-          <a class="list-group-item list-group-item-action" 
-             data-toggle="list" 
-             href="#{{ experience.company }}" 
-             role="tab" 
-             aria-controls="{{ experience.company }}">{{ experience.company-short }}</a>
-          {% endfor %}
+    <!-- tab content -->
+    <div class="col-8">
+      <div class="tab-content">
+        {% for experience in site.data.experiences %}
+        <div id="Company{{forloop.index}}" class="item tab-pane container fade">
 
-        </div>
-      </div>
-      <div class="col-8">
-        <div class="tab-content" id="nav-tabContent">
-
-          {% for experience in site.data.experiences %}
-          <div id="{{ experience.company }}" class="tab-pane fade" role="tabpanel">
-            <div class="item__time code">{{ experience.time }}</div>
-            <div class="item__location code">{{ experience.location }}</div>
-            <div class="item__position">{{ experience.position}}</div>
-            <div class="item__company">@ {{ experience.company }}</div>
-            <ul class="item__description">
-              {% for item in experience.description %}
-              <li>{{ item }}</li>
-              {% endfor %}
-              </duliv>
+          <div class="row">
+            <h6 class="item__position">{{ experience.position}}</h6>
+            <h6 class="item__company">@ {{ experience.company }}</h6>
           </div>
-          {% endfor %}
 
+          <div class="row">
+            <div class="item__time code">{{ experience.time }}</div>
+            <!-- <div class="item__location code">{{ experience.location }}</div> -->
+          </div>
+
+          <ul class="item__description">
+            {% for item in experience.description %}
+            <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
         </div>
+        {% endfor %}
       </div>
     </div>
 
-
   </div>
-
 </div>

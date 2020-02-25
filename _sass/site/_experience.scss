@@ -2,18 +2,20 @@
   min-height: 100vh;
   
   .item {
-    &__time {
-      color: $gray-500;
-    }
-    &__location {
-      color: $gray-500;
-    }
+    
     &__position {
       font-weight: 600;
+      color: white;
+      padding-right: 3pt;
     }
     &__company {
       color: $primary;
       font-weight: 600;
     }
   }
+}
+
+hr {
+  background-color: $gray-800;
+  height: 1px;
 }
