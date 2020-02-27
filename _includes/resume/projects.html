@@ -5,7 +5,13 @@
   <div class="section__content">
     {% for project in site.data.projects.featured %}
     <div class="projects__item">
+      
+      {% if project.url %}
+      <a class="projects__item__name" href="{{ project.url }}" target="_blank">{{ project.name }}</a>
+      {% else %}
       <div class="projects__item__name">{{ project.name }}</div>
+      {% endif %}
+      
       <div class="projects__item__description">{{ project.description }}</div>
     </div>
     {% endfor %}

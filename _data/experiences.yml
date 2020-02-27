@@ -16,7 +16,7 @@
   position: Software Engineering Co-op
   description: 
     - Developed, implemented, and documented user facing features in and C++ and Typescript
-    - Participated in the full development lifecycle scaled agile methodologies
+    - Participated in the full development lifecycle using scaled agile methodologies
 
 - company: UWW Arts Media Center
   company-short: UWW AMC
@@ -25,8 +25,8 @@
   time: Jan '16 - May '18
   position: 3D Printer and Laser Cutter Lab Technician
   description: 
-    - Taught students and professors how to use the equipment
-    - Cleaned, maintained, and operated the machinery
+    - Taught students and professors how to operate, clean, and maintain the equipment
+    - Designed and implemented software to create artistic patterns using the machinery
 
 - company: Interactive Degree Planner, LLC
   company-short: IDP
@@ -35,8 +35,8 @@
   time: May '17 - May '18
   position: Programming Intern
   description: 
-    - Worked on a team to design and implement complex scheduling and optimization algorithms in C++
-    - Optimized, documented, and updated old code to adopt new design requirements from stakeholders
+    - Worked on a team to design and implement and optomize complex scheduling algorithms in C++
+    - Documented, and updated old code to adopt new design requirements from stakeholders
 
 - company: Independent
   company-short: Independent

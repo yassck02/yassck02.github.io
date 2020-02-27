@@ -1,12 +1,12 @@
 .header { text-align: center; }
 
-.header__name { font-weight: 600; font-size: 24pt; font-variant: small-caps; color: rgba(255, 255, 255, 0.3); margin: 10pt 0pt 10pt 0pt; }
+.header__name { font-weight: 600; font-size: 24pt; font-variant: small-caps; color: rgba(0, 0, 0, 0.95); margin: 10pt 0pt 10pt 0pt; }
 
 .header__info { margin: 10pt 0pt 10pt 0pt; }
 
 .header__info * { display: inline-block; margin: 0pt 8pt 0pt 8pt; }
 
-.education__item__date { color: rgba(255, 255, 255, 0.5); float: right; clear: right; }
+.education__item__date { color: rgba(0, 0, 0, 0.4); float: right; clear: right; }
 
 .skills__titles { width: 125pt; clear: left; float: left; }
 
@@ -16,7 +16,7 @@
 
 .experience__item { padding: 0pt 0pt 10pt 0pt; }
 
-.experience__item__time, .experience__item__location { color: rgba(255, 255, 255, 0.5); float: right; clear: right; }
+.experience__item__time, .experience__item__location { color: rgba(0, 0, 0, 0.4); float: right; clear: right; }
 
 .experience__item__company { display: inline-block; font-style: italic; }
 
@@ -28,23 +28,25 @@
 
 .projects__item { width: 50%; float: right; padding: 00pt 0pt 10pt 0pt; }
 
-.projects__item__name { font-weight: 600; }
+.projects__item__name { font-weight: 600; color: rgba(0, 0, 0, 0.95); }
 
 .projects__item__description { padding-top: 4pt; padding-right: 12pt; }
 
-.awards__item__date { color: rgba(255, 255, 255, 0.3); float: right; clear: right; }
+.awards__item__date { color: rgba(0, 0, 0, 0.4); float: right; clear: right; }
 
 .hidden { display: none; }
 
-body { color: rgba(255, 255, 255, 0.3); font-family: Calibre, " Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif; margin: 12pt; }
+body { color: rgba(0, 0, 0, 0.95); font-family: Calibre, " Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif; margin: 12pt; }
 
-.section__title { color: rgba(255, 255, 255, 0.3); font-weight: 500; font-size: 16pt; }
+.section__title { color: rgba(0, 0, 0, 0.95); font-weight: 500; font-size: 16pt; }
 
 .section__content { margin: 10pt 0pt 10pt 0pt; }
 
-a { color: #afff64; text-decoration: none; }
+a { color: #aa145f; text-decoration: none; }
 
-.hr { border-top: 1.5pt solid #afff64; }
+a:hover { text-decoration: underline; text-decoration-color: #aa145f; }
+
+.hr { margin-top: 4pt; border-top: 1.5pt solid #aa145f; }
 
 .courses { width: 47%; float: left; clear: left; }
 

@@ -13,14 +13,14 @@
 @import "resume/keywords";
 
 body {
-  color: $gray-700;
+  color: $dark-100;
   font-family: Calibre, " Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
   margin: 12pt;
 }
 
 .section {
   &__title {
-    color: $gray-700;
+    color: $dark-100;
     font-weight: 500;
     font-size: 16pt;
   }
@@ -30,12 +30,18 @@ body {
 }
 
 a {
-  color: $primary;
+  color: $primary-resume;
   text-decoration: none;
+  
+  &:hover {
+    text-decoration: underline;
+    text-decoration-color: $primary-resume;
+  }
 }
 
 .hr {
-  border-top: 1.5pt solid $primary;
+  margin-top: 4pt;
+  border-top: 1.5pt solid $primary-resume;
 }
 
 .courses {

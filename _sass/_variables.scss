@@ -1,6 +1,8 @@
 
 
+$black: #000 !default;
 $white: #fff !default;
+
 $gray-100: transparentize($color: $white, $amount: 0.1) !default;
 $gray-200: transparentize($color: $white, $amount: 0.2) !default;
 $gray-300: transparentize($color: $white, $amount: 0.3) !default;
@@ -10,7 +12,16 @@ $gray-600: transparentize($color: $white, $amount: 0.6) !default;
 $gray-700: transparentize($color: $white, $amount: 0.7) !default;
 $gray-800: transparentize($color: $white, $amount: 0.8) !default;
 $gray-900: transparentize($color: $white, $amount: 0.9) !default;
-$black: #000 !default;
+
+$dark-100: transparentize($color: $black, $amount: 0.05) !default;
+$dark-200: transparentize($color: $black, $amount: 0.2) !default;
+$dark-300: transparentize($color: $black, $amount: 0.3) !default;
+$dark-400: transparentize($color: $black, $amount: 0.4) !default;
+$dark-500: transparentize($color: $black, $amount: 0.5) !default;
+$dark-600: transparentize($color: $black, $amount: 0.6) !default;
+$dark-700: transparentize($color: $black, $amount: 0.7) !default;
+$dark-800: transparentize($color: $black, $amount: 0.8) !default;
+$dark-900: transparentize($color: $black, $amount: 0.9) !default;
 
 $blue:    #007bff !default;
 $indigo:  #6610f2 !default;
@@ -25,5 +36,7 @@ $cyan:    #6CC3D5 !default;
 
 $primary:   rgb(175, 255, 100) !default;
 $secondary: #F3969A !default;
+
+$primary-resume: rgb(170, 20, 95);
 
 $body-color: #121020 !default;

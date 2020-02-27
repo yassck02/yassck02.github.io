@@ -4,7 +4,7 @@ featured:
     url: https://github.com/yassck02/spirographer
     description: > 
       Developed an iOS application that utilizes
-      Metal to plot and render spirograph designs
+      MetalKit to plot and render spirograph designs
       in real time; Written in native Swift
     technologies:
       - Metal
