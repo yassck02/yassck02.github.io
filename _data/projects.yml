@@ -31,7 +31,7 @@ featured:
     url: https://github.com/yassck02/familyfeud
     description: > 
       Implemented a command line version of the tv game show 
-      that utilizes a text based UI and client server architecture; 
+      with a text based UI and client server architecture; 
       Written in Python
     technologies:
       - Python
@@ -44,7 +44,7 @@ featured:
     url: 
     description: > 
       Led a small cross-disciplinary team that designed
-      and produced an 3D-printable model of the human
+      and produced a 3D-printable model of the human
       larynx for use in a classroom setting
     technologies:
       - 3D Printing

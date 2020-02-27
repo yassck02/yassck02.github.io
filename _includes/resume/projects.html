@@ -12,7 +12,13 @@
       <div class="projects__item__name">{{ project.name }}</div>
       {% endif %}
       
-      <div class="projects__item__description">{{ project.description }}</div>
+      <div class="projects__item__description">
+        {{ project.description }}
+        {% if project.url %}
+        | <a class="projects__item__link" href="{{ project.url }}" target="_blank">{{ project.url }}</a>
+        {% endif %}
+      </div>
+
     </div>
     {% endfor %}
   </div>

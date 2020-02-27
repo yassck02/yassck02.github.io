@@ -32,6 +32,8 @@
 
 .projects__item__description { padding-top: 4pt; padding-right: 12pt; }
 
+.projects__item__link { display: inline; }
+
 .awards__item__date { color: rgba(0, 0, 0, 0.4); float: right; clear: right; }
 
 .hidden { display: none; }
